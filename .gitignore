@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+db.sqlite3
+/backend/staticfiles/
+/backend/media/
+/backend/ml_artifacts/
+
+# Environment
+.env
+*.env.local
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+.npm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ML artifacts (large files)
+*.keras
+*.h5
+*.pkl
+!requirements*.txt
+
+# Logs
+*.log
+celerybeat-schedule
+celerybeat.pid

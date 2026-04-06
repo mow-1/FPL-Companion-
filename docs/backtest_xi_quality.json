@@ -1,0 +1,4684 @@
+[
+  {
+    "gw": 1,
+    "perfect_total": 153,
+    "model_actual": 37,
+    "gap": 116,
+    "perfect_captain": "Ballard",
+    "model_captain": "Ekitik\u00e9",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Ballard",
+        "full_name": "Daniel Ballard",
+        "position": "DEF",
+        "team": "SUN",
+        "actual_pts": 17,
+        "predicted_pts": 1.28,
+        "underrated_by": 15.72
+      },
+      {
+        "name": "Semenyo",
+        "full_name": "Antoine Semenyo",
+        "position": "MID",
+        "team": "BOU",
+        "actual_pts": 15,
+        "predicted_pts": 1.52,
+        "underrated_by": 13.48
+      },
+      {
+        "name": "Calafiori",
+        "full_name": "Riccardo Calafiori",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 1.28,
+        "underrated_by": 11.72
+      },
+      {
+        "name": "Richarlison",
+        "full_name": "Richarlison de Andrade",
+        "position": "FWD",
+        "team": "TOT",
+        "actual_pts": 13,
+        "predicted_pts": 1.6,
+        "underrated_by": 11.4
+      },
+      {
+        "name": "Wood",
+        "full_name": "Chris Wood",
+        "position": "FWD",
+        "team": "NFO",
+        "actual_pts": 13,
+        "predicted_pts": 0.0,
+        "underrated_by": 13.0
+      },
+      {
+        "name": "Haaland",
+        "full_name": "Erling Haaland",
+        "position": "FWD",
+        "team": "MCI",
+        "actual_pts": 13,
+        "predicted_pts": 1.6,
+        "underrated_by": 11.4
+      },
+      {
+        "name": "Lewis",
+        "full_name": "Rico Lewis",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 11,
+        "predicted_pts": 1.28,
+        "underrated_by": 9.72
+      },
+      {
+        "name": "Raya",
+        "full_name": "David Raya Mart\u00edn",
+        "position": "GK",
+        "team": "ARS",
+        "actual_pts": 10,
+        "predicted_pts": 1.2,
+        "underrated_by": 8.8
+      },
+      {
+        "name": "Kudus",
+        "full_name": "Mohammed Kudus",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 10,
+        "predicted_pts": 0.0,
+        "underrated_by": 10.0
+      },
+      {
+        "name": "O'Riley",
+        "full_name": "Matt O'Riley",
+        "position": "MID",
+        "team": "BHA",
+        "actual_pts": 10,
+        "predicted_pts": 1.52,
+        "underrated_by": 8.48
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Kroupi.Jr",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Delap",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Mayenda",
+        "position": "FWD",
+        "actual_pts": 8,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Fraser",
+        "position": "FWD",
+        "actual_pts": 0,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Watkins",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Barnes",
+        "position": "FWD",
+        "actual_pts": 0,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Gy\u00f6keres",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Havertz",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Zirkzee",
+        "position": "FWD",
+        "actual_pts": 0,
+        "predicted_pts": 1.6
+      },
+      {
+        "name": "Wilson",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 1.6
+      }
+    ]
+  },
+  {
+    "gw": 2,
+    "perfect_total": 176,
+    "model_actual": 52,
+    "gap": 124,
+    "perfect_captain": "J.Timber",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "J.Timber",
+        "full_name": "Jurri\u00ebn Timber",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 24,
+        "predicted_pts": 0.534,
+        "underrated_by": 23.466
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "full_name": "Jo\u00e3o Pedro Junqueira de Jesus",
+        "position": "FWD",
+        "team": "CHE",
+        "actual_pts": 15,
+        "predicted_pts": 2.413,
+        "underrated_by": 12.587
+      },
+      {
+        "name": "Pickford",
+        "full_name": "Jordan Pickford",
+        "position": "GK",
+        "team": "EVE",
+        "actual_pts": 15,
+        "predicted_pts": 2.428,
+        "underrated_by": 12.572
+      },
+      {
+        "name": "Cullen",
+        "full_name": "Josh Cullen",
+        "position": "MID",
+        "team": "BUR",
+        "actual_pts": 14,
+        "predicted_pts": 0.0,
+        "underrated_by": 14.0
+      },
+      {
+        "name": "Anthony",
+        "full_name": "Jaidon Anthony",
+        "position": "MID",
+        "team": "BUR",
+        "actual_pts": 13,
+        "predicted_pts": 3.542,
+        "underrated_by": 9.458
+      },
+      {
+        "name": "Calafiori",
+        "full_name": "Riccardo Calafiori",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 3.038,
+        "underrated_by": 9.962
+      },
+      {
+        "name": "O.Dango",
+        "full_name": "Dango Ouattara",
+        "position": "MID",
+        "team": "BRE",
+        "actual_pts": 13,
+        "predicted_pts": 0.452,
+        "underrated_by": 12.548
+      },
+      {
+        "name": "Gy\u00f6keres",
+        "full_name": "Viktor Gy\u00f6keres",
+        "position": "FWD",
+        "team": "ARS",
+        "actual_pts": 12,
+        "predicted_pts": 1.527,
+        "underrated_by": 10.473
+      },
+      {
+        "name": "Grealish",
+        "full_name": "Jack Grealish",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      },
+      {
+        "name": "Tavernier",
+        "full_name": "Marcus Tavernier",
+        "position": "MID",
+        "team": "BOU",
+        "actual_pts": 11,
+        "predicted_pts": 3.337,
+        "underrated_by": 7.663
+      },
+      {
+        "name": "J.Palhinha",
+        "full_name": "Jo\u00e3o Maria Lobo Alves Palhares Costa Palhinha Gon\u00e7alves",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 11,
+        "predicted_pts": 0.013,
+        "underrated_by": 10.987
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 5.21
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.684
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 6,
+        "predicted_pts": 4.575
+      },
+      {
+        "name": "O'Riley",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.19
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 6,
+        "predicted_pts": 3.998
+      },
+      {
+        "name": "Gakpo",
+        "position": "MID",
+        "actual_pts": 10,
+        "predicted_pts": 3.855
+      },
+      {
+        "name": "Anderson",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.853
+      },
+      {
+        "name": "Ekitik\u00e9",
+        "position": "FWD",
+        "actual_pts": 9,
+        "predicted_pts": 3.847
+      },
+      {
+        "name": "Stach",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.763
+      },
+      {
+        "name": "Van de Ven",
+        "position": "DEF",
+        "actual_pts": 6,
+        "predicted_pts": 3.664
+      },
+      {
+        "name": "S\u00e1nchez",
+        "position": "GK",
+        "actual_pts": 3,
+        "predicted_pts": 3.661
+      }
+    ]
+  },
+  {
+    "gw": 3,
+    "perfect_total": 146,
+    "model_actual": 53,
+    "gap": 93,
+    "perfect_captain": "Gu\u00e9hi",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Gu\u00e9hi",
+        "full_name": "Marc Gu\u00e9hi",
+        "position": "DEF",
+        "team": "CRY",
+        "actual_pts": 15,
+        "predicted_pts": 2.834,
+        "underrated_by": 12.166
+      },
+      {
+        "name": "Senesi",
+        "full_name": "Marcos Senesi Bar\u00f3n",
+        "position": "DEF",
+        "team": "BOU",
+        "actual_pts": 14,
+        "predicted_pts": 2.949,
+        "underrated_by": 11.051
+      },
+      {
+        "name": "Szoboszlai",
+        "full_name": "Dominik Szoboszlai",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 13,
+        "predicted_pts": 2.779,
+        "underrated_by": 10.221
+      },
+      {
+        "name": "Chalobah",
+        "full_name": "Trevoh Chalobah",
+        "position": "DEF",
+        "team": "CHE",
+        "actual_pts": 13,
+        "predicted_pts": 2.657,
+        "underrated_by": 10.343
+      },
+      {
+        "name": "Enzo",
+        "full_name": "Enzo Fern\u00e1ndez",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 12,
+        "predicted_pts": 3.515,
+        "underrated_by": 8.485
+      },
+      {
+        "name": "Dewsbury-Hall",
+        "full_name": "Kiernan Dewsbury-Hall",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 12,
+        "predicted_pts": 2.947,
+        "underrated_by": 9.053
+      },
+      {
+        "name": "Lacroix",
+        "full_name": "Maxence Lacroix",
+        "position": "DEF",
+        "team": "CRY",
+        "actual_pts": 11,
+        "predicted_pts": 2.941,
+        "underrated_by": 8.059000000000001
+      },
+      {
+        "name": "E.Le F\u00e9e",
+        "full_name": "Enzo Le F\u00e9e",
+        "position": "MID",
+        "team": "SUN",
+        "actual_pts": 11,
+        "predicted_pts": 0.436,
+        "underrated_by": 10.564
+      },
+      {
+        "name": "Diouf",
+        "full_name": "El Hadji Malick Diouf",
+        "position": "DEF",
+        "team": "WHU",
+        "actual_pts": 10,
+        "predicted_pts": 2.428,
+        "underrated_by": 7.572
+      },
+      {
+        "name": "Grealish",
+        "full_name": "Jack Grealish",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 10,
+        "predicted_pts": 0.0,
+        "underrated_by": 10.0
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 9,
+        "predicted_pts": 5.029
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.609
+      },
+      {
+        "name": "Anthony",
+        "position": "MID",
+        "actual_pts": 6,
+        "predicted_pts": 4.13
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 6,
+        "predicted_pts": 3.998
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.922
+      },
+      {
+        "name": "O'Riley",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 3.919
+      },
+      {
+        "name": "Gakpo",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.76
+      },
+      {
+        "name": "Ekitik\u00e9",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.635
+      },
+      {
+        "name": "Neto",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.616
+      },
+      {
+        "name": "Van de Ven",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 3.55
+      }
+    ]
+  },
+  {
+    "gw": 4,
+    "perfect_total": 149,
+    "model_actual": 63,
+    "gap": 86,
+    "perfect_captain": "Zubimendi",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Zubimendi",
+        "full_name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 16,
+        "predicted_pts": 2.567,
+        "underrated_by": 13.433
+      },
+      {
+        "name": "Van de Ven",
+        "full_name": "Micky van de Ven",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 14,
+        "predicted_pts": 3.188,
+        "underrated_by": 10.812
+      },
+      {
+        "name": "Caicedo",
+        "full_name": "Mois\u00e9s Caicedo Corozo",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 12,
+        "predicted_pts": 3.098,
+        "underrated_by": 8.902000000000001
+      },
+      {
+        "name": "Foden",
+        "full_name": "Phil Foden",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 12,
+        "predicted_pts": 0.462,
+        "underrated_by": 11.538
+      },
+      {
+        "name": "Romero",
+        "full_name": "Cristian Romero",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 12,
+        "predicted_pts": 1.542,
+        "underrated_by": 10.458
+      },
+      {
+        "name": "Bergvall",
+        "full_name": "Lucas Bergvall",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      },
+      {
+        "name": "Roefs",
+        "full_name": "Robin Roefs",
+        "position": "GK",
+        "team": "SUN",
+        "actual_pts": 10,
+        "predicted_pts": 1.622,
+        "underrated_by": 8.378
+      },
+      {
+        "name": "Doku",
+        "full_name": "J\u00e9r\u00e9my Doku",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 10,
+        "predicted_pts": 0.417,
+        "underrated_by": 9.583
+      },
+      {
+        "name": "Andersen",
+        "full_name": "Joachim Andersen",
+        "position": "DEF",
+        "team": "FUL",
+        "actual_pts": 10,
+        "predicted_pts": 2.541,
+        "underrated_by": 7.459
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.315
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 4.292
+      },
+      {
+        "name": "Sarr",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 4.201
+      },
+      {
+        "name": "Anthony",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 4.135
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 7,
+        "predicted_pts": 4.079
+      },
+      {
+        "name": "Mbeumo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.954
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 3.941
+      },
+      {
+        "name": "Senesi",
+        "position": "DEF",
+        "actual_pts": 3,
+        "predicted_pts": 3.66
+      },
+      {
+        "name": "Dewsbury-Hall",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.634
+      }
+    ]
+  },
+  {
+    "gw": 5,
+    "perfect_total": 139,
+    "model_actual": 60,
+    "gap": 79,
+    "perfect_captain": "Stach",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Stach",
+        "full_name": "Anton Stach",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 15,
+        "predicted_pts": 3.141,
+        "underrated_by": 11.859
+      },
+      {
+        "name": "Gravenberch",
+        "full_name": "Ryan Gravenberch",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 15,
+        "predicted_pts": 1.82,
+        "underrated_by": 13.18
+      },
+      {
+        "name": "Iwobi",
+        "full_name": "Alex Iwobi",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 13,
+        "predicted_pts": 2.442,
+        "underrated_by": 10.558
+      },
+      {
+        "name": "Maguire",
+        "full_name": "Harry Maguire",
+        "position": "DEF",
+        "team": "MUN",
+        "actual_pts": 11,
+        "predicted_pts": 0.235,
+        "underrated_by": 10.765
+      },
+      {
+        "name": "Calvert-Lewin",
+        "full_name": "Dominic Calvert-Lewin",
+        "position": "FWD",
+        "team": "LEE",
+        "actual_pts": 11,
+        "predicted_pts": 0.53,
+        "underrated_by": 10.47
+      },
+      {
+        "name": "Gana",
+        "full_name": "Idrissa Gana Gueye",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 10,
+        "predicted_pts": 2.22,
+        "underrated_by": 7.779999999999999
+      },
+      {
+        "name": "N.Williams",
+        "full_name": "Neco Williams",
+        "position": "DEF",
+        "team": "NFO",
+        "actual_pts": 10,
+        "predicted_pts": 2.091,
+        "underrated_by": 7.909
+      },
+      {
+        "name": "Cash",
+        "full_name": "Matty Cash",
+        "position": "DEF",
+        "team": "AVL",
+        "actual_pts": 10,
+        "predicted_pts": 2.108,
+        "underrated_by": 7.8919999999999995
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 5.026
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 4.213
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.037
+      },
+      {
+        "name": "Mbeumo",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.873
+      },
+      {
+        "name": "Vicario",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 3.792
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 7,
+        "predicted_pts": 3.771
+      },
+      {
+        "name": "Van de Ven",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 3.741
+      },
+      {
+        "name": "Lacroix",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 3.718
+      }
+    ]
+  },
+  {
+    "gw": 6,
+    "perfect_total": 160,
+    "model_actual": 75,
+    "gap": 85,
+    "perfect_captain": "Alderete",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Alderete",
+        "full_name": "Omar Alderete",
+        "position": "DEF",
+        "team": "SUN",
+        "actual_pts": 17,
+        "predicted_pts": 2.188,
+        "underrated_by": 14.812
+      },
+      {
+        "name": "Longstaff",
+        "full_name": "Sean Longstaff",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 15,
+        "predicted_pts": 0.762,
+        "underrated_by": 14.238
+      },
+      {
+        "name": "Thiago",
+        "full_name": "Igor Thiago Nascimento Rodrigues",
+        "position": "FWD",
+        "team": "BRE",
+        "actual_pts": 13,
+        "predicted_pts": 2.907,
+        "underrated_by": 10.093
+      },
+      {
+        "name": "Gabriel",
+        "full_name": "Gabriel dos Santos Magalh\u00e3es",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 3.29,
+        "underrated_by": 9.71
+      },
+      {
+        "name": "S.Bueno",
+        "full_name": "Santiago Ignacio Bueno",
+        "position": "DEF",
+        "team": "WOL",
+        "actual_pts": 12,
+        "predicted_pts": 0.197,
+        "underrated_by": 11.803
+      },
+      {
+        "name": "Matheus N.",
+        "full_name": "Matheus Nunes",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 12,
+        "predicted_pts": 0.483,
+        "underrated_by": 11.517
+      },
+      {
+        "name": "Buend\u00eda",
+        "full_name": "Emiliano Buend\u00eda Stati",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 12,
+        "predicted_pts": 0.509,
+        "underrated_by": 11.491
+      },
+      {
+        "name": "Keane",
+        "full_name": "Michael Keane",
+        "position": "DEF",
+        "team": "EVE",
+        "actual_pts": 11,
+        "predicted_pts": 2.883,
+        "underrated_by": 8.117
+      },
+      {
+        "name": "Sarr",
+        "full_name": "Isma\u00efla Sarr",
+        "position": "MID",
+        "team": "CRY",
+        "actual_pts": 11,
+        "predicted_pts": 1.222,
+        "underrated_by": 9.778
+      },
+      {
+        "name": "Welbeck",
+        "full_name": "Danny Welbeck",
+        "position": "FWD",
+        "team": "BHA",
+        "actual_pts": 11,
+        "predicted_pts": 1.126,
+        "underrated_by": 9.874
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 7,
+        "predicted_pts": 4.812
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": -1,
+        "predicted_pts": 4.557
+      },
+      {
+        "name": "Anthony",
+        "position": "MID",
+        "actual_pts": 6,
+        "predicted_pts": 4.273
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 7,
+        "predicted_pts": 3.983
+      },
+      {
+        "name": "Senesi",
+        "position": "DEF",
+        "actual_pts": 7,
+        "predicted_pts": 3.92
+      },
+      {
+        "name": "Stach",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.918
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.905
+      },
+      {
+        "name": "Pope",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.829
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.814
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 9,
+        "predicted_pts": 3.8
+      }
+    ]
+  },
+  {
+    "gw": 7,
+    "perfect_total": 153,
+    "model_actual": 60,
+    "gap": 93,
+    "perfect_captain": "Semenyo",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Malen",
+        "full_name": "Donyell Malen",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 15,
+        "predicted_pts": 0.0,
+        "underrated_by": 15.0
+      },
+      {
+        "name": "Bruno G.",
+        "full_name": "Bruno Guimar\u00e3es Rodriguez Moura",
+        "position": "MID",
+        "team": "NEW",
+        "actual_pts": 14,
+        "predicted_pts": 0.0,
+        "underrated_by": 14.0
+      },
+      {
+        "name": "Gvardiol",
+        "full_name": "Jo\u0161ko Gvardiol",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 12,
+        "predicted_pts": 0.0,
+        "underrated_by": 12.0
+      },
+      {
+        "name": "Kudus",
+        "full_name": "Mohammed Kudus",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 12,
+        "predicted_pts": 0.0,
+        "underrated_by": 12.0
+      },
+      {
+        "name": "Burn",
+        "full_name": "Dan Burn",
+        "position": "DEF",
+        "team": "NEW",
+        "actual_pts": 11,
+        "predicted_pts": 3.115,
+        "underrated_by": 7.885
+      },
+      {
+        "name": "Van Hecke",
+        "full_name": "Jan Paul van Hecke",
+        "position": "DEF",
+        "team": "BHA",
+        "actual_pts": 11,
+        "predicted_pts": 1.912,
+        "underrated_by": 9.088000000000001
+      },
+      {
+        "name": "Rice",
+        "full_name": "Declan Rice",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 11,
+        "predicted_pts": 2.786,
+        "underrated_by": 8.214
+      },
+      {
+        "name": "J.Timber",
+        "full_name": "Jurri\u00ebn Timber",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 11,
+        "predicted_pts": 2.71,
+        "underrated_by": 8.29
+      },
+      {
+        "name": "Mount",
+        "full_name": "Mason Mount",
+        "position": "MID",
+        "team": "MUN",
+        "actual_pts": 10,
+        "predicted_pts": 0.156,
+        "underrated_by": 9.844
+      },
+      {
+        "name": "Caicedo",
+        "full_name": "Mois\u00e9s Caicedo Corozo",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 10,
+        "predicted_pts": 3.27,
+        "underrated_by": 6.73
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 8,
+        "predicted_pts": 7.457
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.605
+      },
+      {
+        "name": "Anthony",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 4.222
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 4.168
+      },
+      {
+        "name": "Gabriel",
+        "position": "DEF",
+        "actual_pts": 9,
+        "predicted_pts": 4.139
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 3,
+        "predicted_pts": 4.099
+      },
+      {
+        "name": "Senesi",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 4.009
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.004
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.784
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.776
+      }
+    ]
+  },
+  {
+    "gw": 8,
+    "perfect_total": 172,
+    "model_actual": 63,
+    "gap": 109,
+    "perfect_captain": "James",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "James",
+        "full_name": "Reece James",
+        "position": "DEF",
+        "team": "CHE",
+        "actual_pts": 18,
+        "predicted_pts": 0.784,
+        "underrated_by": 17.216
+      },
+      {
+        "name": "Mukiele",
+        "full_name": "Nordi Mukiele",
+        "position": "DEF",
+        "team": "SUN",
+        "actual_pts": 17,
+        "predicted_pts": 0.938,
+        "underrated_by": 16.062
+      },
+      {
+        "name": "Mateta",
+        "full_name": "Jean-Philippe Mateta",
+        "position": "FWD",
+        "team": "CRY",
+        "actual_pts": 17,
+        "predicted_pts": 3.629,
+        "underrated_by": 13.371
+      },
+      {
+        "name": "Acheampong",
+        "full_name": "Josh Acheampong",
+        "position": "DEF",
+        "team": "CHE",
+        "actual_pts": 14,
+        "predicted_pts": 0.17,
+        "underrated_by": 13.83
+      },
+      {
+        "name": "Walker",
+        "full_name": "Kyle Walker",
+        "position": "DEF",
+        "team": "BUR",
+        "actual_pts": 14,
+        "predicted_pts": 1.634,
+        "underrated_by": 12.366
+      },
+      {
+        "name": "Welbeck",
+        "full_name": "Danny Welbeck",
+        "position": "FWD",
+        "team": "BHA",
+        "actual_pts": 13,
+        "predicted_pts": 1.099,
+        "underrated_by": 11.901
+      },
+      {
+        "name": "Neto",
+        "full_name": "Pedro Lomba Neto",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 12,
+        "predicted_pts": 1.78,
+        "underrated_by": 10.22
+      },
+      {
+        "name": "Kroupi.Jr",
+        "full_name": "Junior Kroupi",
+        "position": "FWD",
+        "team": "BOU",
+        "actual_pts": 12,
+        "predicted_pts": 0.0,
+        "underrated_by": 12.0
+      },
+      {
+        "name": "Bentancur",
+        "full_name": "Rodrigo Bentancur",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 12,
+        "predicted_pts": 0.0,
+        "underrated_by": 12.0
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 6.394
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 4.333
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 8,
+        "predicted_pts": 4.219
+      },
+      {
+        "name": "Pope",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 4.078
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 4,
+        "predicted_pts": 4.042
+      },
+      {
+        "name": "Burn",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 4.01
+      },
+      {
+        "name": "Caicedo",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 3.796
+      },
+      {
+        "name": "Senesi",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 3.724
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.645
+      }
+    ]
+  },
+  {
+    "gw": 9,
+    "perfect_total": 172,
+    "model_actual": 57,
+    "gap": 115,
+    "perfect_captain": "Van de Ven",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Van de Ven",
+        "full_name": "Micky van de Ven",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 23,
+        "predicted_pts": 2.719,
+        "underrated_by": 20.281
+      },
+      {
+        "name": "Cash",
+        "full_name": "Matty Cash",
+        "position": "DEF",
+        "team": "AVL",
+        "actual_pts": 15,
+        "predicted_pts": 1.89,
+        "underrated_by": 13.11
+      },
+      {
+        "name": "Casemiro",
+        "full_name": "Carlos Henrique Casimiro",
+        "position": "MID",
+        "team": "MUN",
+        "actual_pts": 15,
+        "predicted_pts": 0.954,
+        "underrated_by": 14.046
+      },
+      {
+        "name": "Flemming",
+        "full_name": "Zian Flemming",
+        "position": "FWD",
+        "team": "BUR",
+        "actual_pts": 13,
+        "predicted_pts": 0.124,
+        "underrated_by": 12.876
+      },
+      {
+        "name": "Rodon",
+        "full_name": "Joe Rodon",
+        "position": "DEF",
+        "team": "LEE",
+        "actual_pts": 13,
+        "predicted_pts": 2.448,
+        "underrated_by": 10.552
+      },
+      {
+        "name": "O.Dango",
+        "full_name": "Dango Ouattara",
+        "position": "MID",
+        "team": "BRE",
+        "actual_pts": 11,
+        "predicted_pts": 0.763,
+        "underrated_by": 10.237
+      },
+      {
+        "name": "Aaronson",
+        "full_name": "Brenden Aaronson",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 11,
+        "predicted_pts": 1.05,
+        "underrated_by": 9.95
+      },
+      {
+        "name": "Tavernier",
+        "full_name": "Marcus Tavernier",
+        "position": "MID",
+        "team": "BOU",
+        "actual_pts": 11,
+        "predicted_pts": 2.29,
+        "underrated_by": 8.71
+      },
+      {
+        "name": "Eze",
+        "full_name": "Eberechi Eze",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 11,
+        "predicted_pts": 1.234,
+        "underrated_by": 9.766
+      },
+      {
+        "name": "Pedro Porro",
+        "full_name": "Pedro Porro Sauceda",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 11,
+        "predicted_pts": 2.243,
+        "underrated_by": 8.757
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 7.538
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 5.989
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 5.61
+      },
+      {
+        "name": "Gabriel",
+        "position": "DEF",
+        "actual_pts": 9,
+        "predicted_pts": 5.379
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 4.517
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 5,
+        "predicted_pts": 4.016
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 4,
+        "predicted_pts": 3.9
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 6,
+        "predicted_pts": 3.684
+      },
+      {
+        "name": "Pope",
+        "position": "GK",
+        "actual_pts": 3,
+        "predicted_pts": 3.652
+      },
+      {
+        "name": "Hume",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 3.565
+      }
+    ]
+  },
+  {
+    "gw": 10,
+    "perfect_total": 147,
+    "model_actual": 78,
+    "gap": 69,
+    "perfect_captain": "Gomez",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Gomez",
+        "full_name": "Diego G\u00f3mez Amarilla",
+        "position": "MID",
+        "team": "BHA",
+        "actual_pts": 16,
+        "predicted_pts": 0.338,
+        "underrated_by": 15.662
+      },
+      {
+        "name": "Sessegnon",
+        "full_name": "Ryan Sessegnon",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 14,
+        "predicted_pts": 1.893,
+        "underrated_by": 12.107
+      },
+      {
+        "name": "Rice",
+        "full_name": "Declan Rice",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 3.633,
+        "underrated_by": 9.367
+      },
+      {
+        "name": "Casemiro",
+        "full_name": "Carlos Henrique Casimiro",
+        "position": "MID",
+        "team": "MUN",
+        "actual_pts": 12,
+        "predicted_pts": 1.431,
+        "underrated_by": 10.568999999999999
+      },
+      {
+        "name": "Gravenberch",
+        "full_name": "Ryan Gravenberch",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 11,
+        "predicted_pts": 1.744,
+        "underrated_by": 9.256
+      },
+      {
+        "name": "M.Salah",
+        "full_name": "Mohamed Salah",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 10,
+        "predicted_pts": 3.683,
+        "underrated_by": 6.317
+      },
+      {
+        "name": "Lerma",
+        "full_name": "Jefferson Lerma Sol\u00eds",
+        "position": "MID",
+        "team": "CRY",
+        "actual_pts": 10,
+        "predicted_pts": 0.006,
+        "underrated_by": 9.994
+      },
+      {
+        "name": "Wilson",
+        "full_name": "Harry Wilson",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 10,
+        "predicted_pts": 1.039,
+        "underrated_by": 8.961
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 9,
+        "predicted_pts": 5.334
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 5.138
+      },
+      {
+        "name": "Van de Ven",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 5.022
+      },
+      {
+        "name": "Mbeumo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.76
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 4.311
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.147
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 6,
+        "predicted_pts": 3.862
+      },
+      {
+        "name": "Szoboszlai",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.736
+      }
+    ]
+  },
+  {
+    "gw": 11,
+    "perfect_total": 153,
+    "model_actual": 35,
+    "gap": 118,
+    "perfect_captain": "Gusto",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Gusto",
+        "full_name": "Malo Gusto",
+        "position": "DEF",
+        "team": "CHE",
+        "actual_pts": 15,
+        "predicted_pts": 0.538,
+        "underrated_by": 14.462
+      },
+      {
+        "name": "Keane",
+        "full_name": "Michael Keane",
+        "position": "DEF",
+        "team": "EVE",
+        "actual_pts": 15,
+        "predicted_pts": 2.615,
+        "underrated_by": 12.385
+      },
+      {
+        "name": "Martinez",
+        "full_name": "Emiliano Mart\u00ednez Romero",
+        "position": "GK",
+        "team": "AVL",
+        "actual_pts": 14,
+        "predicted_pts": 1.768,
+        "underrated_by": 12.232
+      },
+      {
+        "name": "Thiago",
+        "full_name": "Igor Thiago Nascimento Rodrigues",
+        "position": "FWD",
+        "team": "BRE",
+        "actual_pts": 13,
+        "predicted_pts": 3.944,
+        "underrated_by": 9.056000000000001
+      },
+      {
+        "name": "Matheus N.",
+        "full_name": "Matheus Nunes",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 13,
+        "predicted_pts": 1.244,
+        "underrated_by": 11.756
+      },
+      {
+        "name": "Saka",
+        "full_name": "Bukayo Saka",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 12,
+        "predicted_pts": 1.502,
+        "underrated_by": 10.498
+      },
+      {
+        "name": "Sou\u010dek",
+        "full_name": "Tom\u00e1\u0161 Sou\u010dek",
+        "position": "MID",
+        "team": "WHU",
+        "actual_pts": 12,
+        "predicted_pts": 0.342,
+        "underrated_by": 11.658
+      },
+      {
+        "name": "Buend\u00eda",
+        "full_name": "Emiliano Buend\u00eda Stati",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 11,
+        "predicted_pts": 0.288,
+        "underrated_by": 10.712
+      },
+      {
+        "name": "Doku",
+        "full_name": "J\u00e9r\u00e9my Doku",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 11,
+        "predicted_pts": 0.799,
+        "underrated_by": 10.201
+      },
+      {
+        "name": "Garnacho",
+        "full_name": "Alejandro Garnacho Ferreyra",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 11,
+        "predicted_pts": 0.17,
+        "underrated_by": 10.83
+      },
+      {
+        "name": "O'Reilly",
+        "full_name": "Nico O'Reilly",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 11,
+        "predicted_pts": 1.26,
+        "underrated_by": 9.74
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 4,
+        "predicted_pts": 7.308
+      },
+      {
+        "name": "Gabriel",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 6.012
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 5.821
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 4.52
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 4.472
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 0,
+        "predicted_pts": 4.357
+      },
+      {
+        "name": "M.Salah",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.288
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.276
+      },
+      {
+        "name": "Mbeumo",
+        "position": "MID",
+        "actual_pts": 7,
+        "predicted_pts": 4.268
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 7,
+        "predicted_pts": 4.246
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 4.001
+      }
+    ]
+  },
+  {
+    "gw": 12,
+    "perfect_total": 174,
+    "model_actual": 30,
+    "gap": 144,
+    "perfect_captain": "Eze",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Eze",
+        "full_name": "Eberechi Eze",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 20,
+        "predicted_pts": 1.764,
+        "underrated_by": 18.236
+      },
+      {
+        "name": "Murillo",
+        "full_name": "Murillo Costa dos Santos",
+        "position": "DEF",
+        "team": "NFO",
+        "actual_pts": 17,
+        "predicted_pts": 0.587,
+        "underrated_by": 16.413
+      },
+      {
+        "name": "Barnes",
+        "full_name": "Harvey Barnes",
+        "position": "MID",
+        "team": "NEW",
+        "actual_pts": 15,
+        "predicted_pts": 0.389,
+        "underrated_by": 14.611
+      },
+      {
+        "name": "Rogers",
+        "full_name": "Morgan Rogers",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 15,
+        "predicted_pts": 2.495,
+        "underrated_by": 12.504999999999999
+      },
+      {
+        "name": "Mu\u00f1oz",
+        "full_name": "Daniel Mu\u00f1oz Mej\u00eda",
+        "position": "DEF",
+        "team": "CRY",
+        "actual_pts": 14,
+        "predicted_pts": 2.964,
+        "underrated_by": 11.036
+      },
+      {
+        "name": "Dewsbury-Hall",
+        "full_name": "Kiernan Dewsbury-Hall",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 13,
+        "predicted_pts": 2.956,
+        "underrated_by": 10.044
+      },
+      {
+        "name": "N.Williams",
+        "full_name": "Neco Williams",
+        "position": "DEF",
+        "team": "NFO",
+        "actual_pts": 13,
+        "predicted_pts": 1.692,
+        "underrated_by": 11.308
+      },
+      {
+        "name": "Wilson",
+        "full_name": "Callum Wilson",
+        "position": "FWD",
+        "team": "WHU",
+        "actual_pts": 12,
+        "predicted_pts": 0.197,
+        "underrated_by": 11.803
+      },
+      {
+        "name": "Trossard",
+        "full_name": "Leandro Trossard",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 12,
+        "predicted_pts": 1.027,
+        "underrated_by": 10.973
+      },
+      {
+        "name": "Savona",
+        "full_name": "Nicol\u00f2 Savona",
+        "position": "DEF",
+        "team": "NFO",
+        "actual_pts": 12,
+        "predicted_pts": 0.0,
+        "underrated_by": 12.0
+      },
+      {
+        "name": "Minteh",
+        "full_name": "Yankuba Minteh",
+        "position": "MID",
+        "team": "BHA",
+        "actual_pts": 11,
+        "predicted_pts": 3.097,
+        "underrated_by": 7.9030000000000005
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 6.5
+      },
+      {
+        "name": "Gabriel",
+        "position": "DEF",
+        "actual_pts": 0,
+        "predicted_pts": 4.789
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 4,
+        "predicted_pts": 4.77
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 4.769
+      },
+      {
+        "name": "Mbeumo",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 4.5
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.388
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 4.247
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 4.043
+      },
+      {
+        "name": "Mitchell",
+        "position": "DEF",
+        "actual_pts": 6,
+        "predicted_pts": 3.888
+      },
+      {
+        "name": "Keane",
+        "position": "DEF",
+        "actual_pts": 9,
+        "predicted_pts": 3.873
+      },
+      {
+        "name": "M.Salah",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.858
+      }
+    ]
+  },
+  {
+    "gw": 13,
+    "perfect_total": 163,
+    "model_actual": 51,
+    "gap": 112,
+    "perfect_captain": "Thiaw",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Thiaw",
+        "full_name": "Malick Thiaw",
+        "position": "DEF",
+        "team": "NEW",
+        "actual_pts": 16,
+        "predicted_pts": 1.031,
+        "underrated_by": 14.969
+      },
+      {
+        "name": "De Cuyper",
+        "full_name": "Maxim De Cuyper",
+        "position": "DEF",
+        "team": "BHA",
+        "actual_pts": 15,
+        "predicted_pts": 0.178,
+        "underrated_by": 14.822
+      },
+      {
+        "name": "Foden",
+        "full_name": "Phil Foden",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 15,
+        "predicted_pts": 1.74,
+        "underrated_by": 13.26
+      },
+      {
+        "name": "L.Miley",
+        "full_name": "Lewis Miley",
+        "position": "MID",
+        "team": "NEW",
+        "actual_pts": 15,
+        "predicted_pts": 0.044,
+        "underrated_by": 14.956
+      },
+      {
+        "name": "Gakpo",
+        "full_name": "Cody Gakpo",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 14,
+        "predicted_pts": 2.614,
+        "underrated_by": 11.386
+      },
+      {
+        "name": "E.Le F\u00e9e",
+        "full_name": "Enzo Le F\u00e9e",
+        "position": "MID",
+        "team": "SUN",
+        "actual_pts": 13,
+        "predicted_pts": 1.096,
+        "underrated_by": 11.904
+      },
+      {
+        "name": "O.Dango",
+        "full_name": "Dango Ouattara",
+        "position": "MID",
+        "team": "BRE",
+        "actual_pts": 12,
+        "predicted_pts": 1.366,
+        "underrated_by": 10.634
+      },
+      {
+        "name": "Tete",
+        "full_name": "Kenny Tete",
+        "position": "DEF",
+        "team": "FUL",
+        "actual_pts": 12,
+        "predicted_pts": 1.56,
+        "underrated_by": 10.44
+      },
+      {
+        "name": "Kamara",
+        "full_name": "Boubacar Kamara",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 6.702
+      },
+      {
+        "name": "Lacroix",
+        "position": "DEF",
+        "actual_pts": 3,
+        "predicted_pts": 4.356
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 6,
+        "predicted_pts": 4.221
+      },
+      {
+        "name": "Minteh",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 4.021
+      },
+      {
+        "name": "Keane",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 4.016
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 4.012
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.962
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 3.884
+      },
+      {
+        "name": "Mitchell",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 3.884
+      }
+    ]
+  },
+  {
+    "gw": 14,
+    "perfect_total": 172,
+    "model_actual": 59,
+    "gap": 113,
+    "perfect_captain": "Romero",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Romero",
+        "full_name": "Cristian Romero",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 17,
+        "predicted_pts": 0.479,
+        "underrated_by": 16.521
+      },
+      {
+        "name": "Foden",
+        "full_name": "Phil Foden",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 17,
+        "predicted_pts": 2.805,
+        "underrated_by": 14.195
+      },
+      {
+        "name": "Dalot",
+        "full_name": "Diogo Dalot Teixeira",
+        "position": "DEF",
+        "team": "MUN",
+        "actual_pts": 15,
+        "predicted_pts": 0.635,
+        "underrated_by": 14.365
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "full_name": "Marc Gu\u00e9hi",
+        "position": "DEF",
+        "team": "CRY",
+        "actual_pts": 14,
+        "predicted_pts": 2.639,
+        "underrated_by": 11.361
+      },
+      {
+        "name": "Mu\u00f1oz",
+        "full_name": "Daniel Mu\u00f1oz Mej\u00eda",
+        "position": "DEF",
+        "team": "CRY",
+        "actual_pts": 14,
+        "predicted_pts": 2.948,
+        "underrated_by": 11.052
+      },
+      {
+        "name": "White",
+        "full_name": "Benjamin White",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 14,
+        "predicted_pts": 0.075,
+        "underrated_by": 13.925
+      },
+      {
+        "name": "Watkins",
+        "full_name": "Ollie Watkins",
+        "position": "FWD",
+        "team": "AVL",
+        "actual_pts": 13,
+        "predicted_pts": 1.734,
+        "underrated_by": 11.266
+      },
+      {
+        "name": "Merino",
+        "full_name": "Mikel Merino Zaz\u00f3n",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 0.0,
+        "underrated_by": 13.0
+      },
+      {
+        "name": "Chukwueze",
+        "full_name": "Samuel Chukwueze",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 12,
+        "predicted_pts": 0.084,
+        "underrated_by": 11.916
+      },
+      {
+        "name": "Van Hecke",
+        "full_name": "Jan Paul van Hecke",
+        "position": "DEF",
+        "team": "BHA",
+        "actual_pts": 12,
+        "predicted_pts": 2.909,
+        "underrated_by": 9.091000000000001
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 5.794
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 4.805
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.165
+      },
+      {
+        "name": "Anderson",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.775
+      },
+      {
+        "name": "Dewsbury-Hall",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.751
+      },
+      {
+        "name": "Lacroix",
+        "position": "DEF",
+        "actual_pts": 8,
+        "predicted_pts": 3.749
+      },
+      {
+        "name": "Gakpo",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 3.671
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.581
+      },
+      {
+        "name": "Keane",
+        "position": "DEF",
+        "actual_pts": 0,
+        "predicted_pts": 3.554
+      },
+      {
+        "name": "Henderson",
+        "position": "GK",
+        "actual_pts": 7,
+        "predicted_pts": 3.467
+      }
+    ]
+  },
+  {
+    "gw": 15,
+    "perfect_total": 162,
+    "model_actual": 61,
+    "gap": 101,
+    "perfect_captain": "B.Fernandes",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Dewsbury-Hall",
+        "full_name": "Kiernan Dewsbury-Hall",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 16,
+        "predicted_pts": 3.371,
+        "underrated_by": 12.629
+      },
+      {
+        "name": "R\u00faben",
+        "full_name": "R\u00faben dos Santos Gato Alves Dias",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 14,
+        "predicted_pts": 2.099,
+        "underrated_by": 11.901
+      },
+      {
+        "name": "Xavi",
+        "full_name": "Xavi Simons",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 14,
+        "predicted_pts": 0.366,
+        "underrated_by": 13.634
+      },
+      {
+        "name": "Ekitik\u00e9",
+        "full_name": "Hugo Ekitik\u00e9",
+        "position": "FWD",
+        "team": "LIV",
+        "actual_pts": 13,
+        "predicted_pts": 0.756,
+        "underrated_by": 12.244
+      },
+      {
+        "name": "Foden",
+        "full_name": "Phil Foden",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 12,
+        "predicted_pts": 3.638,
+        "underrated_by": 8.362
+      },
+      {
+        "name": "Gvardiol",
+        "full_name": "Jo\u0161ko Gvardiol",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 12,
+        "predicted_pts": 0.0,
+        "underrated_by": 12.0
+      },
+      {
+        "name": "Stach",
+        "full_name": "Anton Stach",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 12,
+        "predicted_pts": 1.747,
+        "underrated_by": 10.253
+      },
+      {
+        "name": "Cherki",
+        "full_name": "Rayan Cherki",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 12,
+        "predicted_pts": 0.192,
+        "underrated_by": 11.808
+      },
+      {
+        "name": "Chalobah",
+        "full_name": "Trevoh Chalobah",
+        "position": "DEF",
+        "team": "CHE",
+        "actual_pts": 11,
+        "predicted_pts": 2.755,
+        "underrated_by": 8.245000000000001
+      },
+      {
+        "name": "Kamara",
+        "full_name": "Boubacar Kamara",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 10,
+        "predicted_pts": 0.0,
+        "underrated_by": 10.0
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 7.769
+      },
+      {
+        "name": "Lacroix",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 4.295
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.181
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 8,
+        "predicted_pts": 4.097
+      },
+      {
+        "name": "Mu\u00f1oz",
+        "position": "DEF",
+        "actual_pts": 0,
+        "predicted_pts": 4.075
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 6,
+        "predicted_pts": 3.946
+      },
+      {
+        "name": "Henderson",
+        "position": "GK",
+        "actual_pts": 3,
+        "predicted_pts": 3.934
+      },
+      {
+        "name": "Van Hecke",
+        "position": "DEF",
+        "actual_pts": 5,
+        "predicted_pts": 3.914
+      },
+      {
+        "name": "Tarkowski",
+        "position": "DEF",
+        "actual_pts": 9,
+        "predicted_pts": 3.858
+      },
+      {
+        "name": "Richards",
+        "position": "DEF",
+        "actual_pts": 4,
+        "predicted_pts": 3.789
+      }
+    ]
+  },
+  {
+    "gw": 16,
+    "perfect_total": 178,
+    "model_actual": 69,
+    "gap": 109,
+    "perfect_captain": "Hudson-Odoi",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Hudson-Odoi",
+        "full_name": "Callum Hudson-Odoi",
+        "position": "MID",
+        "team": "NFO",
+        "actual_pts": 19,
+        "predicted_pts": 0.22,
+        "underrated_by": 18.78
+      },
+      {
+        "name": "Gusto",
+        "full_name": "Malo Gusto",
+        "position": "DEF",
+        "team": "CHE",
+        "actual_pts": 18,
+        "predicted_pts": 0.756,
+        "underrated_by": 17.244
+      },
+      {
+        "name": "Sangar\u00e9",
+        "full_name": "Ibrahim Sangar\u00e9",
+        "position": "MID",
+        "team": "NFO",
+        "actual_pts": 18,
+        "predicted_pts": 0.553,
+        "underrated_by": 17.447
+      },
+      {
+        "name": "Wilson",
+        "full_name": "Harry Wilson",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 16,
+        "predicted_pts": 2.27,
+        "underrated_by": 13.73
+      },
+      {
+        "name": "Rogers",
+        "full_name": "Morgan Rogers",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 15,
+        "predicted_pts": 3.129,
+        "underrated_by": 11.871
+      },
+      {
+        "name": "Ekitik\u00e9",
+        "full_name": "Hugo Ekitik\u00e9",
+        "position": "FWD",
+        "team": "LIV",
+        "actual_pts": 13,
+        "predicted_pts": 1.22,
+        "underrated_by": 11.78
+      },
+      {
+        "name": "Tavernier",
+        "full_name": "Marcus Tavernier",
+        "position": "MID",
+        "team": "BOU",
+        "actual_pts": 12,
+        "predicted_pts": 2.437,
+        "underrated_by": 9.563
+      },
+      {
+        "name": "Matheus N.",
+        "full_name": "Matheus Nunes",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 11,
+        "predicted_pts": 2.089,
+        "underrated_by": 8.911
+      },
+      {
+        "name": "Saka",
+        "full_name": "Bukayo Saka",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 11,
+        "predicted_pts": 2.44,
+        "underrated_by": 8.56
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Dewsbury-Hall",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 4.592
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.374
+      },
+      {
+        "name": "Tarkowski",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 4.11
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 8,
+        "predicted_pts": 3.998
+      },
+      {
+        "name": "Foden",
+        "position": "MID",
+        "actual_pts": 11,
+        "predicted_pts": 3.942
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.933
+      },
+      {
+        "name": "Gu\u00e9hi",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 3.886
+      },
+      {
+        "name": "Mbeumo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.831
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.708
+      }
+    ]
+  },
+  {
+    "gw": 17,
+    "perfect_total": 166,
+    "model_actual": 76,
+    "gap": 90,
+    "perfect_captain": "Lewis-Potter",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Lewis-Potter",
+        "full_name": "Keane Lewis-Potter",
+        "position": "DEF",
+        "team": "BRE",
+        "actual_pts": 21,
+        "predicted_pts": 0.171,
+        "underrated_by": 20.829
+      },
+      {
+        "name": "Woltemade",
+        "full_name": "Nick Woltemade",
+        "position": "FWD",
+        "team": "NEW",
+        "actual_pts": 13,
+        "predicted_pts": 2.075,
+        "underrated_by": 10.925
+      },
+      {
+        "name": "Kelleher",
+        "full_name": "Caoimh\u00edn Kelleher",
+        "position": "GK",
+        "team": "BRE",
+        "actual_pts": 13,
+        "predicted_pts": 2.379,
+        "underrated_by": 10.621
+      },
+      {
+        "name": "Calvert-Lewin",
+        "full_name": "Dominic Calvert-Lewin",
+        "position": "FWD",
+        "team": "LEE",
+        "actual_pts": 13,
+        "predicted_pts": 1.957,
+        "underrated_by": 11.043
+      },
+      {
+        "name": "Ampadu",
+        "full_name": "Ethan Ampadu",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 12,
+        "predicted_pts": 1.533,
+        "underrated_by": 10.467
+      },
+      {
+        "name": "Verbruggen",
+        "full_name": "Bart Verbruggen",
+        "position": "GK",
+        "team": "BHA",
+        "actual_pts": 11,
+        "predicted_pts": 2.392,
+        "underrated_by": 8.608
+      },
+      {
+        "name": "Rice",
+        "full_name": "Declan Rice",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 11,
+        "predicted_pts": 3.411,
+        "underrated_by": 7.589
+      },
+      {
+        "name": "Robinson",
+        "full_name": "Antonee Robinson",
+        "position": "DEF",
+        "team": "FUL",
+        "actual_pts": 10,
+        "predicted_pts": 0.0,
+        "underrated_by": 10.0
+      },
+      {
+        "name": "Hincapie",
+        "full_name": "Piero Hincapi\u00e9",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 10,
+        "predicted_pts": 0.193,
+        "underrated_by": 9.807
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 6.511
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 4.409
+      },
+      {
+        "name": "Foden",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 4.139
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.039
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 10,
+        "predicted_pts": 3.855
+      },
+      {
+        "name": "Chalobah",
+        "position": "DEF",
+        "actual_pts": 3,
+        "predicted_pts": 3.691
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 3.589
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.538
+      },
+      {
+        "name": "R\u00faben",
+        "position": "DEF",
+        "actual_pts": 6,
+        "predicted_pts": 3.504
+      }
+    ]
+  },
+  {
+    "gw": 18,
+    "perfect_total": 158,
+    "model_actual": 36,
+    "gap": 122,
+    "perfect_captain": "Schade",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Schade",
+        "full_name": "Kevin Schade",
+        "position": "MID",
+        "team": "BRE",
+        "actual_pts": 20,
+        "predicted_pts": 2.019,
+        "underrated_by": 17.981
+      },
+      {
+        "name": "Dorgu",
+        "full_name": "Patrick Dorgu",
+        "position": "DEF",
+        "team": "MUN",
+        "actual_pts": 17,
+        "predicted_pts": 0.0,
+        "underrated_by": 17.0
+      },
+      {
+        "name": "Cherki",
+        "full_name": "Rayan Cherki",
+        "position": "MID",
+        "team": "MCI",
+        "actual_pts": 13,
+        "predicted_pts": 0.348,
+        "underrated_by": 12.652
+      },
+      {
+        "name": "Dalot",
+        "full_name": "Diogo Dalot Teixeira",
+        "position": "DEF",
+        "team": "MUN",
+        "actual_pts": 13,
+        "predicted_pts": 1.102,
+        "underrated_by": 11.898
+      },
+      {
+        "name": "Watkins",
+        "full_name": "Ollie Watkins",
+        "position": "FWD",
+        "team": "AVL",
+        "actual_pts": 12,
+        "predicted_pts": 2.657,
+        "underrated_by": 9.343
+      },
+      {
+        "name": "Gravenberch",
+        "full_name": "Ryan Gravenberch",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 11,
+        "predicted_pts": 2.169,
+        "underrated_by": 8.831
+      },
+      {
+        "name": "Van de Ven",
+        "full_name": "Micky van de Ven",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 11,
+        "predicted_pts": 2.074,
+        "underrated_by": 8.926
+      },
+      {
+        "name": "D\u00fabravka",
+        "full_name": "Martin D\u00fabravka",
+        "position": "GK",
+        "team": "BUR",
+        "actual_pts": 11,
+        "predicted_pts": 2.248,
+        "underrated_by": 8.751999999999999
+      },
+      {
+        "name": "Adingra",
+        "full_name": "Simon Adingra",
+        "position": "MID",
+        "team": "SUN",
+        "actual_pts": 10,
+        "predicted_pts": 0.0,
+        "underrated_by": 10.0
+      },
+      {
+        "name": "Gray",
+        "full_name": "Archie Gray",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 10,
+        "predicted_pts": 0.01,
+        "underrated_by": 9.99
+      },
+      {
+        "name": "Wirtz",
+        "full_name": "Florian Wirtz",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 10,
+        "predicted_pts": 1.736,
+        "underrated_by": 8.264
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 8.606
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 5.432
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 5.418
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 9,
+        "predicted_pts": 4.505
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 4.343
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 5,
+        "predicted_pts": 3.944
+      },
+      {
+        "name": "Kelleher",
+        "position": "GK",
+        "actual_pts": 4,
+        "predicted_pts": 3.903
+      },
+      {
+        "name": "Verbruggen",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 3.723
+      },
+      {
+        "name": "R\u00faben",
+        "position": "DEF",
+        "actual_pts": 3,
+        "predicted_pts": 3.648
+      },
+      {
+        "name": "Foden",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.595
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.59
+      }
+    ]
+  },
+  {
+    "gw": 19,
+    "perfect_total": 145,
+    "model_actual": 37,
+    "gap": 108,
+    "perfect_captain": "Garner",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Garner",
+        "full_name": "James Garner",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 16,
+        "predicted_pts": 2.996,
+        "underrated_by": 13.004
+      },
+      {
+        "name": "Gabriel",
+        "full_name": "Gabriel dos Santos Magalh\u00e3es",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 15,
+        "predicted_pts": 0.923,
+        "underrated_by": 14.077
+      },
+      {
+        "name": "L.Paquet\u00e1",
+        "full_name": "Lucas Tolentino Coelho de Lima",
+        "position": "MID",
+        "team": "WHU",
+        "actual_pts": 13,
+        "predicted_pts": 0.0,
+        "underrated_by": 13.0
+      },
+      {
+        "name": "Trossard",
+        "full_name": "Leandro Trossard",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 0.621,
+        "underrated_by": 12.379
+      },
+      {
+        "name": "Matheus N.",
+        "full_name": "Matheus Nunes",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 11,
+        "predicted_pts": 2.741,
+        "underrated_by": 8.259
+      },
+      {
+        "name": "Mukiele",
+        "full_name": "Nordi Mukiele",
+        "position": "DEF",
+        "team": "SUN",
+        "actual_pts": 11,
+        "predicted_pts": 1.343,
+        "underrated_by": 9.657
+      },
+      {
+        "name": "Pedro Porro",
+        "full_name": "Pedro Porro Sauceda",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 10,
+        "predicted_pts": 2.175,
+        "underrated_by": 7.825
+      },
+      {
+        "name": "Laurent",
+        "full_name": "Josh Laurent",
+        "position": "MID",
+        "team": "BUR",
+        "actual_pts": 10,
+        "predicted_pts": 0.153,
+        "underrated_by": 9.847
+      },
+      {
+        "name": "Perri",
+        "full_name": "Lucas Estella Perri",
+        "position": "GK",
+        "team": "LEE",
+        "actual_pts": 10,
+        "predicted_pts": 0.861,
+        "underrated_by": 9.139
+      },
+      {
+        "name": "Veltman",
+        "full_name": "Jo\u00ebl Veltman",
+        "position": "DEF",
+        "team": "BHA",
+        "actual_pts": 10,
+        "predicted_pts": 0.004,
+        "underrated_by": 9.996
+      },
+      {
+        "name": "Brooks",
+        "full_name": "David Brooks",
+        "position": "MID",
+        "team": "BOU",
+        "actual_pts": 10,
+        "predicted_pts": 0.424,
+        "underrated_by": 9.576
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 7.218
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 4.78
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 4.511
+      },
+      {
+        "name": "Schade",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 4.293
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.069
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 4.019
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 3.956
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 3.828
+      },
+      {
+        "name": "Tarkowski",
+        "position": "DEF",
+        "actual_pts": 9,
+        "predicted_pts": 3.702
+      },
+      {
+        "name": "D\u00fabravka",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.605
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 10,
+        "predicted_pts": 3.587
+      }
+    ]
+  },
+  {
+    "gw": 20,
+    "perfect_total": 161,
+    "model_actual": 53,
+    "gap": 108,
+    "perfect_captain": "Rice",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Rice",
+        "full_name": "Declan Rice",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 17,
+        "predicted_pts": 3.196,
+        "underrated_by": 13.804
+      },
+      {
+        "name": "Thiaw",
+        "full_name": "Malick Thiaw",
+        "position": "DEF",
+        "team": "NEW",
+        "actual_pts": 17,
+        "predicted_pts": 1.545,
+        "underrated_by": 15.455
+      },
+      {
+        "name": "McGinn",
+        "full_name": "John McGinn",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 15,
+        "predicted_pts": 1.688,
+        "underrated_by": 13.312
+      },
+      {
+        "name": "Man\u00e9",
+        "full_name": "Mateus Man\u00e9",
+        "position": "FWD",
+        "team": "WOL",
+        "actual_pts": 12,
+        "predicted_pts": 0.063,
+        "underrated_by": 11.937
+      },
+      {
+        "name": "Ayari",
+        "full_name": "Yasin Ayari",
+        "position": "MID",
+        "team": "BHA",
+        "actual_pts": 12,
+        "predicted_pts": 1.689,
+        "underrated_by": 10.311
+      },
+      {
+        "name": "Hee Chan",
+        "full_name": "Hwang Hee-chan",
+        "position": "MID",
+        "team": "WOL",
+        "actual_pts": 11,
+        "predicted_pts": 0.156,
+        "underrated_by": 10.844
+      },
+      {
+        "name": "H.Bueno",
+        "full_name": "Hugo Bueno L\u00f3pez",
+        "position": "DEF",
+        "team": "WOL",
+        "actual_pts": 11,
+        "predicted_pts": 0.361,
+        "underrated_by": 10.639
+      },
+      {
+        "name": "Janelt",
+        "full_name": "Vitaly Janelt",
+        "position": "MID",
+        "team": "BRE",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      },
+      {
+        "name": "Grealish",
+        "full_name": "Jack Grealish",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 10,
+        "predicted_pts": 0.0,
+        "underrated_by": 10.0
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 6.491
+      },
+      {
+        "name": "Garner",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 4.838
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 4.537
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.418
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 4.404
+      },
+      {
+        "name": "Tarkowski",
+        "position": "DEF",
+        "actual_pts": 2,
+        "predicted_pts": 4.172
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 4,
+        "predicted_pts": 4.009
+      },
+      {
+        "name": "Kelleher",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.889
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 3.863
+      }
+    ]
+  },
+  {
+    "gw": 21,
+    "perfect_total": 146,
+    "model_actual": 66,
+    "gap": 80,
+    "perfect_captain": "Barnes",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Barnes",
+        "full_name": "Harvey Barnes",
+        "position": "MID",
+        "team": "NEW",
+        "actual_pts": 15,
+        "predicted_pts": 0.349,
+        "underrated_by": 14.651
+      },
+      {
+        "name": "Aaronson",
+        "full_name": "Brenden Aaronson",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 14,
+        "predicted_pts": 1.302,
+        "underrated_by": 12.698
+      },
+      {
+        "name": "\u0160e\u0161ko",
+        "full_name": "Benjamin Sesko",
+        "position": "FWD",
+        "team": "MUN",
+        "actual_pts": 13,
+        "predicted_pts": 0.498,
+        "underrated_by": 12.502
+      },
+      {
+        "name": "Kelleher",
+        "full_name": "Caoimh\u00edn Kelleher",
+        "position": "GK",
+        "team": "BRE",
+        "actual_pts": 13,
+        "predicted_pts": 3.166,
+        "underrated_by": 9.834
+      },
+      {
+        "name": "Bruno G.",
+        "full_name": "Bruno Guimar\u00e3es Rodriguez Moura",
+        "position": "MID",
+        "team": "NEW",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      },
+      {
+        "name": "Dominguez",
+        "full_name": "Nicol\u00e1s Dom\u00ednguez",
+        "position": "MID",
+        "team": "NFO",
+        "actual_pts": 10,
+        "predicted_pts": 0.03,
+        "underrated_by": 9.97
+      },
+      {
+        "name": "A.Becker",
+        "full_name": "Alisson Becker",
+        "position": "GK",
+        "team": "LIV",
+        "actual_pts": 10,
+        "predicted_pts": 1.462,
+        "underrated_by": 8.538
+      },
+      {
+        "name": "Tel",
+        "full_name": "Mathys Tel",
+        "position": "MID",
+        "team": "TOT",
+        "actual_pts": 10,
+        "predicted_pts": 0.058,
+        "underrated_by": 9.942
+      },
+      {
+        "name": "Berge",
+        "full_name": "Sander Berge",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 10,
+        "predicted_pts": 1.43,
+        "underrated_by": 8.57
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 6,
+        "predicted_pts": 6.365
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 4.802
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 4.659
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 6,
+        "predicted_pts": 4.063
+      },
+      {
+        "name": "Garner",
+        "position": "MID",
+        "actual_pts": 6,
+        "predicted_pts": 4.052
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.945
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.931
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.752
+      },
+      {
+        "name": "Schade",
+        "position": "MID",
+        "actual_pts": 6,
+        "predicted_pts": 3.73
+      }
+    ]
+  },
+  {
+    "gw": 22,
+    "perfect_total": 127,
+    "model_actual": 29,
+    "gap": 98,
+    "perfect_captain": "Dorgu",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Dorgu",
+        "full_name": "Patrick Dorgu",
+        "position": "DEF",
+        "team": "MUN",
+        "actual_pts": 15,
+        "predicted_pts": 0.0,
+        "underrated_by": 15.0
+      },
+      {
+        "name": "S\u00e1nchez",
+        "full_name": "Robert Lynch S\u00e1nchez",
+        "position": "GK",
+        "team": "CHE",
+        "actual_pts": 11,
+        "predicted_pts": 2.148,
+        "underrated_by": 8.852
+      },
+      {
+        "name": "Summerville",
+        "full_name": "Crysencio Summerville",
+        "position": "MID",
+        "team": "WHU",
+        "actual_pts": 10,
+        "predicted_pts": 0.0,
+        "underrated_by": 10.0
+      },
+      {
+        "name": "B.Fernandes",
+        "full_name": "Bruno Borges Fernandes",
+        "position": "MID",
+        "team": "MUN",
+        "actual_pts": 10,
+        "predicted_pts": 2.961,
+        "underrated_by": 7.039
+      },
+      {
+        "name": "Pickford",
+        "full_name": "Jordan Pickford",
+        "position": "GK",
+        "team": "EVE",
+        "actual_pts": 10,
+        "predicted_pts": 3.535,
+        "underrated_by": 6.465
+      },
+      {
+        "name": "Wirtz",
+        "full_name": "Florian Wirtz",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 10,
+        "predicted_pts": 2.263,
+        "underrated_by": 7.737
+      },
+      {
+        "name": "Sels",
+        "full_name": "Matz Sels",
+        "position": "GK",
+        "team": "NFO",
+        "actual_pts": 10,
+        "predicted_pts": 1.091,
+        "underrated_by": 8.909
+      },
+      {
+        "name": "Yeremy",
+        "full_name": "Y\u00e9remy Pino Santos",
+        "position": "MID",
+        "team": "CRY",
+        "actual_pts": 9,
+        "predicted_pts": 1.765,
+        "underrated_by": 7.235
+      },
+      {
+        "name": "Justin",
+        "full_name": "James Justin",
+        "position": "DEF",
+        "team": "LEE",
+        "actual_pts": 9,
+        "predicted_pts": 0.055,
+        "underrated_by": 8.945
+      },
+      {
+        "name": "Palmer",
+        "full_name": "Cole Palmer",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 9,
+        "predicted_pts": 0.252,
+        "underrated_by": 8.748
+      },
+      {
+        "name": "O'Brien",
+        "full_name": "Jake O'Brien",
+        "position": "DEF",
+        "team": "EVE",
+        "actual_pts": 9,
+        "predicted_pts": 2.154,
+        "underrated_by": 6.846
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 6.4
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 6.299
+      },
+      {
+        "name": "Kelleher",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 4.832
+      },
+      {
+        "name": "Collins",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 4.745
+      },
+      {
+        "name": "Garner",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 4.364
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.19
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.93
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.904
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 6,
+        "predicted_pts": 3.902
+      },
+      {
+        "name": "Schade",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 3.663
+      },
+      {
+        "name": "Gibbs-White",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.652
+      }
+    ]
+  },
+  {
+    "gw": 23,
+    "perfect_total": 138,
+    "model_actual": 38,
+    "gap": 100,
+    "perfect_captain": "Est\u00eav\u00e3o",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Est\u00eav\u00e3o",
+        "full_name": "Est\u00eav\u00e3o Almeida de Oliveira Gon\u00e7alves",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 13,
+        "predicted_pts": 0.08,
+        "underrated_by": 12.92
+      },
+      {
+        "name": "Szoboszlai",
+        "full_name": "Dominik Szoboszlai",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 13,
+        "predicted_pts": 2.081,
+        "underrated_by": 10.919
+      },
+      {
+        "name": "Bowen",
+        "full_name": "Jarrod Bowen",
+        "position": "FWD",
+        "team": "WHU",
+        "actual_pts": 12,
+        "predicted_pts": 3.415,
+        "underrated_by": 8.585
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "full_name": "Jo\u00e3o Pedro Junqueira de Jesus",
+        "position": "FWD",
+        "team": "CHE",
+        "actual_pts": 12,
+        "predicted_pts": 3.139,
+        "underrated_by": 8.861
+      },
+      {
+        "name": "Matheus N.",
+        "full_name": "Matheus Nunes",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 11,
+        "predicted_pts": 1.715,
+        "underrated_by": 9.285
+      },
+      {
+        "name": "Romero",
+        "full_name": "Cristian Romero",
+        "position": "DEF",
+        "team": "TOT",
+        "actual_pts": 11,
+        "predicted_pts": 1.097,
+        "underrated_by": 9.903
+      },
+      {
+        "name": "Aina",
+        "full_name": "Ola Aina",
+        "position": "DEF",
+        "team": "NFO",
+        "actual_pts": 11,
+        "predicted_pts": 0.065,
+        "underrated_by": 10.935
+      },
+      {
+        "name": "Buend\u00eda",
+        "full_name": "Emiliano Buend\u00eda Stati",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 11,
+        "predicted_pts": 0.261,
+        "underrated_by": 10.739
+      },
+      {
+        "name": "Ayari",
+        "full_name": "Yasin Ayari",
+        "position": "MID",
+        "team": "BHA",
+        "actual_pts": 11,
+        "predicted_pts": 1.757,
+        "underrated_by": 9.243
+      },
+      {
+        "name": "Adli",
+        "full_name": "Amine Adli",
+        "position": "MID",
+        "team": "BOU",
+        "actual_pts": 10,
+        "predicted_pts": 0.021,
+        "underrated_by": 9.979
+      },
+      {
+        "name": "Wilson",
+        "full_name": "Harry Wilson",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 10,
+        "predicted_pts": 2.674,
+        "underrated_by": 7.3260000000000005
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 1,
+        "predicted_pts": 6.059
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 5.67
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 3,
+        "predicted_pts": 4.471
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 8,
+        "predicted_pts": 4.244
+      },
+      {
+        "name": "Tarkowski",
+        "position": "DEF",
+        "actual_pts": 4,
+        "predicted_pts": 4.004
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 1,
+        "predicted_pts": 3.918
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 8,
+        "predicted_pts": 3.764
+      },
+      {
+        "name": "Garner",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.727
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 3.699
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 3.624
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 3.505
+      }
+    ]
+  },
+  {
+    "gw": 24,
+    "perfect_total": 149,
+    "model_actual": 58,
+    "gap": 91,
+    "perfect_captain": "Diarra",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Diarra",
+        "full_name": "Habib Diarra",
+        "position": "MID",
+        "team": "SUN",
+        "actual_pts": 14,
+        "predicted_pts": 0.047,
+        "underrated_by": 13.953
+      },
+      {
+        "name": "Madueke",
+        "full_name": "Noni Madueke",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 14,
+        "predicted_pts": 0.132,
+        "underrated_by": 13.868
+      },
+      {
+        "name": "Scott",
+        "full_name": "Alex Scott",
+        "position": "MID",
+        "team": "BOU",
+        "actual_pts": 13,
+        "predicted_pts": 1.692,
+        "underrated_by": 11.308
+      },
+      {
+        "name": "Casemiro",
+        "full_name": "Carlos Henrique Casimiro",
+        "position": "MID",
+        "team": "MUN",
+        "actual_pts": 13,
+        "predicted_pts": 1.709,
+        "underrated_by": 11.291
+      },
+      {
+        "name": "Ekitik\u00e9",
+        "full_name": "Hugo Ekitik\u00e9",
+        "position": "FWD",
+        "team": "LIV",
+        "actual_pts": 13,
+        "predicted_pts": 0.999,
+        "underrated_by": 12.001
+      },
+      {
+        "name": "Solanke",
+        "full_name": "Dominic Solanke-Mitchell",
+        "position": "FWD",
+        "team": "TOT",
+        "actual_pts": 12,
+        "predicted_pts": 0.043,
+        "underrated_by": 11.957
+      },
+      {
+        "name": "Gro\u00df",
+        "full_name": "Pascal Gro\u00df",
+        "position": "MID",
+        "team": "BHA",
+        "actual_pts": 12,
+        "predicted_pts": 0.141,
+        "underrated_by": 11.859
+      },
+      {
+        "name": "Wirtz",
+        "full_name": "Florian Wirtz",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 12,
+        "predicted_pts": 2.325,
+        "underrated_by": 9.675
+      },
+      {
+        "name": "Reinildo",
+        "full_name": "Reinildo Mandava",
+        "position": "DEF",
+        "team": "SUN",
+        "actual_pts": 11,
+        "predicted_pts": 0.219,
+        "underrated_by": 10.781
+      },
+      {
+        "name": "Konat\u00e9",
+        "full_name": "Ibrahima Konat\u00e9",
+        "position": "DEF",
+        "team": "LIV",
+        "actual_pts": 11,
+        "predicted_pts": 1.971,
+        "underrated_by": 9.029
+      },
+      {
+        "name": "Kelleher",
+        "full_name": "Caoimh\u00edn Kelleher",
+        "position": "GK",
+        "team": "BRE",
+        "actual_pts": 10,
+        "predicted_pts": 3.128,
+        "underrated_by": 6.872
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 5,
+        "predicted_pts": 5.56
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 8,
+        "predicted_pts": 4.878
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.632
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 8,
+        "predicted_pts": 4.603
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 7,
+        "predicted_pts": 4.52
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.915
+      },
+      {
+        "name": "Szoboszlai",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 3.875
+      },
+      {
+        "name": "Pickford",
+        "position": "GK",
+        "actual_pts": 2,
+        "predicted_pts": 3.849
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 10,
+        "predicted_pts": 3.837
+      },
+      {
+        "name": "Virgil",
+        "position": "DEF",
+        "actual_pts": 4,
+        "predicted_pts": 3.746
+      },
+      {
+        "name": "Mateta",
+        "position": "FWD",
+        "actual_pts": 0,
+        "predicted_pts": 3.707
+      }
+    ]
+  },
+  {
+    "gw": 25,
+    "perfect_total": 154,
+    "model_actual": 65,
+    "gap": 89,
+    "perfect_captain": "Palmer",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Palmer",
+        "full_name": "Cole Palmer",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 20,
+        "predicted_pts": 0.312,
+        "underrated_by": 19.688
+      },
+      {
+        "name": "Dewsbury-Hall",
+        "full_name": "Kiernan Dewsbury-Hall",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 13,
+        "predicted_pts": 0.943,
+        "underrated_by": 12.057
+      },
+      {
+        "name": "Gy\u00f6keres",
+        "full_name": "Viktor Gy\u00f6keres",
+        "position": "FWD",
+        "team": "ARS",
+        "actual_pts": 12,
+        "predicted_pts": 1.765,
+        "underrated_by": 10.235
+      },
+      {
+        "name": "O.Dango",
+        "full_name": "Dango Ouattara",
+        "position": "MID",
+        "team": "BRE",
+        "actual_pts": 12,
+        "predicted_pts": 0.782,
+        "underrated_by": 11.218
+      },
+      {
+        "name": "Dalot",
+        "full_name": "Diogo Dalot Teixeira",
+        "position": "DEF",
+        "team": "MUN",
+        "actual_pts": 12,
+        "predicted_pts": 1.461,
+        "underrated_by": 10.539
+      },
+      {
+        "name": "Summerville",
+        "full_name": "Crysencio Summerville",
+        "position": "MID",
+        "team": "WHU",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      },
+      {
+        "name": "Gruev",
+        "full_name": "Ilia Gruev",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 11,
+        "predicted_pts": 0.117,
+        "underrated_by": 10.883
+      },
+      {
+        "name": "Bruno G.",
+        "full_name": "Bruno Guimar\u00e3es Rodriguez Moura",
+        "position": "MID",
+        "team": "NEW",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      },
+      {
+        "name": "Lacroix",
+        "full_name": "Maxence Lacroix",
+        "position": "DEF",
+        "team": "CRY",
+        "actual_pts": 11,
+        "predicted_pts": 2.492,
+        "underrated_by": 8.508
+      },
+      {
+        "name": "Rogers",
+        "full_name": "Morgan Rogers",
+        "position": "MID",
+        "team": "AVL",
+        "actual_pts": 10,
+        "predicted_pts": 3.322,
+        "underrated_by": 6.678
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.795
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.644
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.624
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 5,
+        "predicted_pts": 4.557
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 10,
+        "predicted_pts": 4.289
+      },
+      {
+        "name": "Kelleher",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 4.03
+      },
+      {
+        "name": "Gibbs-White",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.969
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 8,
+        "predicted_pts": 3.939
+      },
+      {
+        "name": "Anderson",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 3.775
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 7,
+        "predicted_pts": 3.593
+      }
+    ]
+  },
+  {
+    "gw": 26,
+    "perfect_total": 152,
+    "model_actual": 51,
+    "gap": 101,
+    "perfect_captain": "Virgil",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Virgil",
+        "full_name": "Virgil van Dijk",
+        "position": "DEF",
+        "team": "LIV",
+        "actual_pts": 17,
+        "predicted_pts": 2.688,
+        "underrated_by": 14.312
+      },
+      {
+        "name": "O'Reilly",
+        "full_name": "Nico O'Reilly",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 13,
+        "predicted_pts": 1.741,
+        "underrated_by": 11.259
+      },
+      {
+        "name": "Strand Larsen",
+        "full_name": "J\u00f8rgen Strand Larsen",
+        "position": "FWD",
+        "team": "CRY",
+        "actual_pts": 13,
+        "predicted_pts": 0.652,
+        "underrated_by": 12.348
+      },
+      {
+        "name": "Mings",
+        "full_name": "Tyrone Mings",
+        "position": "DEF",
+        "team": "AVL",
+        "actual_pts": 12,
+        "predicted_pts": 0.061,
+        "underrated_by": 11.939
+      },
+      {
+        "name": "Saka",
+        "full_name": "Bukayo Saka",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 12,
+        "predicted_pts": 1.301,
+        "underrated_by": 10.699
+      },
+      {
+        "name": "Palmer",
+        "full_name": "Cole Palmer",
+        "position": "MID",
+        "team": "CHE",
+        "actual_pts": 12,
+        "predicted_pts": 0.566,
+        "underrated_by": 11.434
+      },
+      {
+        "name": "Thiaw",
+        "full_name": "Malick Thiaw",
+        "position": "DEF",
+        "team": "NEW",
+        "actual_pts": 11,
+        "predicted_pts": 1.384,
+        "underrated_by": 9.616
+      },
+      {
+        "name": "Nmecha",
+        "full_name": "Lukas Nmecha",
+        "position": "FWD",
+        "team": "LEE",
+        "actual_pts": 11,
+        "predicted_pts": 0.066,
+        "underrated_by": 10.934
+      },
+      {
+        "name": "Hannibal",
+        "full_name": "Hannibal Mejbri",
+        "position": "MID",
+        "team": "BUR",
+        "actual_pts": 10,
+        "predicted_pts": 0.019,
+        "underrated_by": 9.981
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 5,
+        "predicted_pts": 7.007
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.871
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.658
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.509
+      },
+      {
+        "name": "Szoboszlai",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 4.388
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 5,
+        "predicted_pts": 4.091
+      },
+      {
+        "name": "Lacroix",
+        "position": "DEF",
+        "actual_pts": 3,
+        "predicted_pts": 4.018
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.999
+      },
+      {
+        "name": "Raya",
+        "position": "GK",
+        "actual_pts": 1,
+        "predicted_pts": 3.964
+      }
+    ]
+  },
+  {
+    "gw": 27,
+    "perfect_total": 157,
+    "model_actual": 55,
+    "gap": 102,
+    "perfect_captain": "O'Reilly",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "O'Reilly",
+        "full_name": "Nico O'Reilly",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 17,
+        "predicted_pts": 2.898,
+        "underrated_by": 14.102
+      },
+      {
+        "name": "Henderson",
+        "full_name": "Dean Henderson",
+        "position": "GK",
+        "team": "CRY",
+        "actual_pts": 16,
+        "predicted_pts": 2.813,
+        "underrated_by": 13.187
+      },
+      {
+        "name": "Eze",
+        "full_name": "Eberechi Eze",
+        "position": "MID",
+        "team": "ARS",
+        "actual_pts": 14,
+        "predicted_pts": 0.346,
+        "underrated_by": 13.654
+      },
+      {
+        "name": "Mac Allister",
+        "full_name": "Alexis Mac Allister",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 13,
+        "predicted_pts": 1.179,
+        "underrated_by": 11.821
+      },
+      {
+        "name": "Iwobi",
+        "full_name": "Alex Iwobi",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 13,
+        "predicted_pts": 1.356,
+        "underrated_by": 11.644
+      },
+      {
+        "name": "Gy\u00f6keres",
+        "full_name": "Viktor Gy\u00f6keres",
+        "position": "FWD",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 1.846,
+        "underrated_by": 11.154
+      },
+      {
+        "name": "Mitchell",
+        "full_name": "Tyrick Mitchell",
+        "position": "DEF",
+        "team": "CRY",
+        "actual_pts": 11,
+        "predicted_pts": 2.343,
+        "underrated_by": 8.657
+      },
+      {
+        "name": "Stach",
+        "full_name": "Anton Stach",
+        "position": "MID",
+        "team": "LEE",
+        "actual_pts": 11,
+        "predicted_pts": 1.352,
+        "underrated_by": 9.648
+      },
+      {
+        "name": "Ra\u00fal",
+        "full_name": "Ra\u00fal Jim\u00e9nez Rodr\u00edguez",
+        "position": "FWD",
+        "team": "FUL",
+        "actual_pts": 11,
+        "predicted_pts": 2.132,
+        "underrated_by": 8.868
+      },
+      {
+        "name": "Gomez",
+        "full_name": "Diego G\u00f3mez Amarilla",
+        "position": "MID",
+        "team": "BHA",
+        "actual_pts": 10,
+        "predicted_pts": 0.91,
+        "underrated_by": 9.09
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 6,
+        "predicted_pts": 6.522
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 5.784
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 7,
+        "predicted_pts": 4.423
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.353
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 4,
+        "predicted_pts": 4.152
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 4.005
+      },
+      {
+        "name": "Enzo",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.942
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 4,
+        "predicted_pts": 3.939
+      },
+      {
+        "name": "Anderson",
+        "position": "MID",
+        "actual_pts": 5,
+        "predicted_pts": 3.724
+      },
+      {
+        "name": "Rogers",
+        "position": "MID",
+        "actual_pts": 2,
+        "predicted_pts": 3.551
+      }
+    ]
+  },
+  {
+    "gw": 28,
+    "perfect_total": 150,
+    "model_actual": 56,
+    "gap": 94,
+    "perfect_captain": "Damsgaard",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Damsgaard",
+        "full_name": "Mikkel Damsgaard",
+        "position": "MID",
+        "team": "BRE",
+        "actual_pts": 18,
+        "predicted_pts": 0.466,
+        "underrated_by": 17.534
+      },
+      {
+        "name": "Ekitik\u00e9",
+        "full_name": "Hugo Ekitik\u00e9",
+        "position": "FWD",
+        "team": "LIV",
+        "actual_pts": 15,
+        "predicted_pts": 1.855,
+        "underrated_by": 13.145
+      },
+      {
+        "name": "J.Gomes",
+        "full_name": "Jo\u00e3o Victor Gomes da Silva",
+        "position": "MID",
+        "team": "WOL",
+        "actual_pts": 14,
+        "predicted_pts": 1.081,
+        "underrated_by": 12.919
+      },
+      {
+        "name": "Wilson",
+        "full_name": "Harry Wilson",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 12,
+        "predicted_pts": 3.197,
+        "underrated_by": 8.803
+      },
+      {
+        "name": "A\u00eft-Nouri",
+        "full_name": "Rayan A\u00eft-Nouri",
+        "position": "DEF",
+        "team": "MCI",
+        "actual_pts": 11,
+        "predicted_pts": 0.059,
+        "underrated_by": 10.941
+      },
+      {
+        "name": "Saliba",
+        "full_name": "William Saliba",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 10,
+        "predicted_pts": 1.662,
+        "underrated_by": 8.338000000000001
+      },
+      {
+        "name": "Iwobi",
+        "full_name": "Alex Iwobi",
+        "position": "MID",
+        "team": "FUL",
+        "actual_pts": 10,
+        "predicted_pts": 2.418,
+        "underrated_by": 7.582
+      },
+      {
+        "name": "Anthony",
+        "full_name": "Jaidon Anthony",
+        "position": "MID",
+        "team": "BUR",
+        "actual_pts": 10,
+        "predicted_pts": 1.502,
+        "underrated_by": 8.498
+      },
+      {
+        "name": "Hannibal",
+        "full_name": "Hannibal Mejbri",
+        "position": "MID",
+        "team": "BUR",
+        "actual_pts": 10,
+        "predicted_pts": 0.041,
+        "underrated_by": 9.959
+      },
+      {
+        "name": "Mac Allister",
+        "full_name": "Alexis Mac Allister",
+        "position": "MID",
+        "team": "LIV",
+        "actual_pts": 9,
+        "predicted_pts": 2.268,
+        "underrated_by": 6.732
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 0,
+        "predicted_pts": 6.05
+      },
+      {
+        "name": "Henderson",
+        "position": "GK",
+        "actual_pts": 3,
+        "predicted_pts": 5.353
+      },
+      {
+        "name": "Virgil",
+        "position": "DEF",
+        "actual_pts": 7,
+        "predicted_pts": 5.136
+      },
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 8,
+        "predicted_pts": 4.588
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 6,
+        "predicted_pts": 4.284
+      },
+      {
+        "name": "Jo\u00e3o Pedro",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.199
+      },
+      {
+        "name": "O'Reilly",
+        "position": "DEF",
+        "actual_pts": 6,
+        "predicted_pts": 4.03
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 7,
+        "predicted_pts": 4.023
+      },
+      {
+        "name": "Mitchell",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 3.97
+      },
+      {
+        "name": "Petrovi\u0107",
+        "position": "GK",
+        "actual_pts": 3,
+        "predicted_pts": 3.889
+      }
+    ]
+  },
+  {
+    "gw": 29,
+    "perfect_total": 158,
+    "model_actual": 40,
+    "gap": 118,
+    "perfect_captain": "Jo\u00e3o Pedro",
+    "model_captain": "Haaland",
+    "captain_correct": false,
+    "missed_players": [
+      {
+        "name": "Jo\u00e3o Pedro",
+        "full_name": "Jo\u00e3o Pedro Junqueira de Jesus",
+        "position": "FWD",
+        "team": "CHE",
+        "actual_pts": 19,
+        "predicted_pts": 3.526,
+        "underrated_by": 15.474
+      },
+      {
+        "name": "Sarr",
+        "full_name": "Isma\u00efla Sarr",
+        "position": "MID",
+        "team": "CRY",
+        "actual_pts": 15,
+        "predicted_pts": 0.978,
+        "underrated_by": 14.022
+      },
+      {
+        "name": "Tarkowski",
+        "full_name": "James Tarkowski",
+        "position": "DEF",
+        "team": "EVE",
+        "actual_pts": 15,
+        "predicted_pts": 2.51,
+        "underrated_by": 12.49
+      },
+      {
+        "name": "J.Timber",
+        "full_name": "Jurri\u00ebn Timber",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 13,
+        "predicted_pts": 3.357,
+        "underrated_by": 9.643
+      },
+      {
+        "name": "Andr\u00e9",
+        "full_name": "Andr\u00e9 Trindade da Costa Neto",
+        "position": "MID",
+        "team": "WOL",
+        "actual_pts": 12,
+        "predicted_pts": 1.344,
+        "underrated_by": 10.656
+      },
+      {
+        "name": "Anderson",
+        "full_name": "Elliot Anderson",
+        "position": "MID",
+        "team": "NFO",
+        "actual_pts": 12,
+        "predicted_pts": 2.963,
+        "underrated_by": 9.036999999999999
+      },
+      {
+        "name": "Gabriel",
+        "full_name": "Gabriel dos Santos Magalh\u00e3es",
+        "position": "DEF",
+        "team": "ARS",
+        "actual_pts": 11,
+        "predicted_pts": 2.765,
+        "underrated_by": 8.235
+      },
+      {
+        "name": "Senesi",
+        "full_name": "Marcos Senesi Bar\u00f3n",
+        "position": "DEF",
+        "team": "BOU",
+        "actual_pts": 11,
+        "predicted_pts": 2.941,
+        "underrated_by": 8.059000000000001
+      },
+      {
+        "name": "Summerville",
+        "full_name": "Crysencio Summerville",
+        "position": "MID",
+        "team": "WHU",
+        "actual_pts": 11,
+        "predicted_pts": 0.0,
+        "underrated_by": 11.0
+      },
+      {
+        "name": "Wharton",
+        "full_name": "Adam Wharton",
+        "position": "MID",
+        "team": "CRY",
+        "actual_pts": 10,
+        "predicted_pts": 1.837,
+        "underrated_by": 8.163
+      },
+      {
+        "name": "Garner",
+        "full_name": "James Garner",
+        "position": "MID",
+        "team": "EVE",
+        "actual_pts": 10,
+        "predicted_pts": 3.369,
+        "underrated_by": 6.631
+      }
+    ],
+    "wrongly_picked": [
+      {
+        "name": "Semenyo",
+        "position": "MID",
+        "actual_pts": 7,
+        "predicted_pts": 5.44
+      },
+      {
+        "name": "Haaland",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 5.238
+      },
+      {
+        "name": "Virgil",
+        "position": "DEF",
+        "actual_pts": 1,
+        "predicted_pts": 5.054
+      },
+      {
+        "name": "Thiago",
+        "position": "FWD",
+        "actual_pts": 2,
+        "predicted_pts": 4.903
+      },
+      {
+        "name": "B.Fernandes",
+        "position": "MID",
+        "actual_pts": 8,
+        "predicted_pts": 4.753
+      },
+      {
+        "name": "Bowen",
+        "position": "FWD",
+        "actual_pts": 4,
+        "predicted_pts": 4.434
+      },
+      {
+        "name": "Henderson",
+        "position": "GK",
+        "actual_pts": 3,
+        "predicted_pts": 4.026
+      },
+      {
+        "name": "Gibbs-White",
+        "position": "MID",
+        "actual_pts": 8,
+        "predicted_pts": 3.83
+      },
+      {
+        "name": "Rice",
+        "position": "MID",
+        "actual_pts": 3,
+        "predicted_pts": 3.789
+      },
+      {
+        "name": "Wilson",
+        "position": "MID",
+        "actual_pts": 0,
+        "predicted_pts": 3.771
+      },
+      {
+        "name": "O'Reilly",
+        "position": "DEF",
+        "actual_pts": 0,
+        "predicted_pts": 3.546
+      }
+    ]
+  }
+]
