@@ -26,13 +26,12 @@ def _compute_min_prices(candidates: list[dict]) -> dict[int, float]:
 def _pick_xi_for_formation(
     candidates_by_pos: dict,
     n_def: int, n_mid: int, n_fwd: int,
-    xi_budget: float,
+    xi_budget: float | None,
     min_prices: dict,
 ) -> list[dict] | None:
     """
-    Greedily pick the best possible XI for a given formation within xi_budget.
-    Iterates over ALL positions together sorted by predicted_points descending
-    so budget is spent on the globally highest-value players, not position-by-position.
+    Greedily pick the best possible XI for a given formation.
+    When xi_budget is None, picks purely by predicted_points with no cost constraint.
     Returns the 11-player list or None if infeasible.
     """
     slots   = {1: 1, 2: n_def, 3: n_mid, 4: n_fwd}
@@ -55,14 +54,15 @@ def _pick_xi_for_formation(
         if clubs.get(p['team_id'], 0) >= MAX_PER_CLUB:
             continue
 
-        # Reserve budget for remaining unfilled slots
-        new_counts = {**counts, pos: counts[pos] + 1}
-        reserve = sum(
-            max(slots[p2] - new_counts[p2], 0) * min_prices[p2]
-            for p2 in slots
-        )
-        if spent + p['price'] + reserve > xi_budget + 0.05:
-            continue
+        if xi_budget is not None:
+            # Reserve budget for remaining unfilled slots
+            new_counts = {**counts, pos: counts[pos] + 1}
+            reserve = sum(
+                max(slots[p2] - new_counts[p2], 0) * min_prices[p2]
+                for p2 in slots
+            )
+            if spent + p['price'] + reserve > xi_budget + 0.05:
+                continue
 
         picked.append(p)
         counts[pos] += 1
@@ -80,16 +80,13 @@ def _fill_bench(
     bench_slots: dict,       # {pos: count_needed}
     xi_ids: set,
     xi_club_counts: dict,
-    bench_budget: float,
+    bench_budget: float | None,
     min_prices: dict,
     fallback_pool: list[dict] | None = None,
 ) -> list[dict]:
     """
-    Fill the bench with the cheapest legal players.
-    Sorted by price ascending so the most budget stays available for the XI.
-    If the main pool cannot fill all slots (club constraint or budget), any
-    remaining slots are filled from fallback_pool (broader set of players
-    including injured/suspended) at the lowest possible price.
+    Fill the bench with the cheapest legal players not already in the XI.
+    When bench_budget is None, picks cheapest without any cost constraint.
     """
     clubs  = dict(xi_club_counts)
     counts = {pos: 0 for pos in range(1, 5)}
@@ -111,13 +108,14 @@ def _fill_bench(
         if clubs.get(p['team_id'], 0) >= MAX_PER_CLUB:
             continue
 
-        new_counts = {**counts, pos: counts[pos] + 1}
-        reserve = sum(
-            max(bench_slots.get(p2, 0) - new_counts[p2], 0) * min_prices[p2]
-            for p2 in bench_slots
-        )
-        if spent + p['price'] + reserve > bench_budget + 0.05:
-            continue
+        if bench_budget is not None:
+            new_counts = {**counts, pos: counts[pos] + 1}
+            reserve = sum(
+                max(bench_slots.get(p2, 0) - new_counts[p2], 0) * min_prices[p2]
+                for p2 in bench_slots
+            )
+            if spent + p['price'] + reserve > bench_budget + 0.05:
+                continue
 
         bench.append(p)
         counts[pos] += 1
@@ -155,21 +153,17 @@ def _fill_bench(
     return bench_gk + bench_out
 
 
-def _build_squad(candidates: list[dict], budget: float, fallback_pool: list[dict] | None = None):
+def _build_squad(candidates: list[dict], budget: float | None = None, fallback_pool: list[dict] | None = None):
     """
-    Two-phase squad builder that prioritises XI quality:
+    Two-phase squad builder that maximises XI predicted points.
 
-    Phase 1 — XI optimisation:
-      For each valid formation, compute the minimum bench cost (cheapest
-      available players to fill bench slots), then use the remaining budget
-      entirely on picking the best possible XI.  The formation that yields
-      the highest total XI predicted points wins.
+    When budget is None: picks the highest predicted-point players in each
+    position purely by score — no cost constraint.  The bench is filled with
+    the cheapest remaining eligible players (still FPL-legal).
 
-    Phase 2 — Bench fill:
-      Fill bench slots with the cheapest legal players not already in the XI.
-
-    This ensures budget is concentrated on the starting 11, not wasted on
-    expensive bench players who rarely contribute.
+    When budget is provided: reserves bench min-cost before allocating the
+    remaining budget to the XI (original budget-constrained mode, used by
+    historical simulation / build_past_best_team).
     """
     min_prices      = _compute_min_prices(candidates)
     candidates_by_pos = {
@@ -183,10 +177,12 @@ def _build_squad(candidates: list[dict], budget: float, fallback_pool: list[dict
     best_formation = None
 
     for (n_def, n_mid, n_fwd) in VALID_FORMATIONS:
-        # Bench slots required by this formation
         bench_slots = {1: 1, 2: 5 - n_def, 3: 5 - n_mid, 4: 3 - n_fwd}
-        bench_min   = sum(bench_slots[pos] * min_prices[pos] for pos in bench_slots)
-        xi_budget   = budget - bench_min
+        if budget is not None:
+            bench_min = sum(bench_slots[pos] * min_prices[pos] for pos in bench_slots)
+            xi_budget = budget - bench_min
+        else:
+            xi_budget = None   # unconstrained — pick by predicted_points only
 
         xi = _pick_xi_for_formation(
             candidates_by_pos, n_def, n_mid, n_fwd, xi_budget, min_prices
@@ -217,7 +213,7 @@ def _build_squad(candidates: list[dict], budget: float, fallback_pool: list[dict
         xi_clubs[p['team_id']] = xi_clubs.get(p['team_id'], 0) + 1
 
     xi_cost      = sum(p['price'] for p in best_xi)
-    bench_budget = budget - xi_cost
+    bench_budget = (budget - xi_cost) if budget is not None else None
 
     bench = _fill_bench(
         candidates_by_pos, bench_slots, xi_ids, xi_clubs, bench_budget, min_prices,
@@ -336,7 +332,52 @@ def _blank_rate_penalties(fpl_ids: list[int]) -> dict[int, float]:
     return penalties
 
 
-def build_best_team(budget: float = 100.0) -> dict:
+def _apply_backline_corr_penalty(candidates: list[dict], fdr_map: dict) -> None:
+    """
+    Penalise 2nd/3rd+ GK+DEF from the same club based on fixture difficulty.
+
+    GK and DEF share the clean-sheet bonus — if a team concedes, every backline
+    player from that club loses it simultaneously (correlated downside).
+
+    A baseline penalty always applies to the 2nd+ backline player so the optimizer
+    naturally diversifies even for medium fixtures.  The penalty scales with FDR:
+
+      Player rank  | FDR 1-2  | FDR 3  | FDR 4  | FDR 5
+      2nd backline |  ×0.93   | ×0.87  | ×0.76  | ×0.65
+      3rd backline |  ×0.88   | ×0.76  | ×0.62  | ×0.50
+
+    Sorted by predicted_points desc — the best backline player from each club is
+    always protected; penalties cascade onto lower-ranked players.
+    """
+    # (2nd_player_mult, 3rd+_player_mult) indexed by FDR 1-5
+    _PENALTY = {1: (0.93, 0.88), 2: (0.93, 0.88),
+                3: (0.87, 0.76), 4: (0.76, 0.62), 5: (0.65, 0.50)}
+
+    backline = sorted(
+        [c for c in candidates if c['position'] in (1, 2)],
+        key=lambda x: x['predicted_points'], reverse=True,
+    )
+    club_count: dict[int, int] = {}
+    for c in backline:
+        tid = c['team_id']
+        fdr = max(1, min(5, fdr_map.get(tid, 3)))
+        club_count[tid] = club_count.get(tid, 0) + 1
+        n = club_count[tid]
+        p2, p3 = _PENALTY[fdr]
+        if n == 2:
+            c['predicted_points'] = round(c['predicted_points'] * p2, 2)
+        elif n >= 3:
+            c['predicted_points'] = round(c['predicted_points'] * p3, 2)
+
+
+def build_best_team(budget: float | None = None) -> dict:
+    """
+    Build the best possible XI by pure predicted-point ranking.
+    Constraints: valid FPL formation (1 GK + outfield), max 3 players per club.
+    No budget constraint — the team value is reported but does not limit picks.
+    A full 15-player squad (XI + bench) is returned for display purposes; the
+    bench is filled with the cheapest eligible remaining players.
+    """
     from fpl.models import Player, Gameweek
     from predictions.models import Prediction
 
@@ -411,16 +452,8 @@ def build_best_team(budget: float = 100.0) -> dict:
             c['predicted_points'] = round(c['predicted_points'] * mult, 2)
             c['blank_rate_penalty'] = mult
 
-    # NEW FIX 4: DEF clean-sheet correlation penalty.
-    # Apply ×0.92 to the 3rd+ DEF from the same team to discourage correlated CS risk.
-    # Test result: avg|diff| −0.04 vs baseline.
-    _def_team_count: dict[int, int] = {}
-    for c in sorted([x for x in candidates if x['position'] == 2],
-                    key=lambda x: x['predicted_points'], reverse=True):
-        tid = c['team_id']
-        _def_team_count[tid] = _def_team_count.get(tid, 0) + 1
-        if _def_team_count[tid] >= 3:
-            c['predicted_points'] = round(c['predicted_points'] * 0.92, 2)
+    # FDR-aware backline (GK + DEF) same-club correlation penalty.
+    _apply_backline_corr_penalty(candidates, fdr_map)
 
     # Fallback pool: cheapest injured/suspended players to guarantee a full bench
     # when club constraints exhaust the main candidate pool.
@@ -447,9 +480,9 @@ def build_best_team(budget: float = 100.0) -> dict:
         for pl in _all_players
     ]
 
-    xi, bench = _build_squad(candidates, budget, fallback_pool=fallback_pool)
+    xi, bench = _build_squad(candidates, budget=None, fallback_pool=fallback_pool)
     if not xi:
-        return {'error': 'Not enough players available within budget.'}
+        return {'error': 'Could not build a valid XI from available predictions.'}
 
     squad = xi + bench
 
@@ -462,7 +495,8 @@ def build_best_team(budget: float = 100.0) -> dict:
     captain_id  = xi_by_cap[0]['fpl_id'] if xi_by_cap else -1
     vc_id       = xi_by_cap[1]['fpl_id'] if len(xi_by_cap) > 1 else -1
 
-    total_cost   = round(sum(p['price'] for p in squad), 1)
+    xi_cost      = round(sum(p['price'] for p in xi), 1)
+    squad_cost   = round(sum(p['price'] for p in squad), 1)
     xi_pred_pts  = round(sum(
         p['predicted_points'] * (2 if p['fpl_id'] == captain_id else 1) for p in xi
     ), 2)
@@ -478,9 +512,8 @@ def build_best_team(budget: float = 100.0) -> dict:
     return {
         'gameweek':            gw.name if gw else 'N/A',
         'gameweek_id':         gw.fpl_id if gw else None,
-        'budget':              budget,
-        'total_cost':          total_cost,
-        'remaining_budget':    round(budget - total_cost, 1),
+        'xi_cost':             xi_cost,
+        'squad_cost':          squad_cost,
         'xi_predicted_pts':    xi_pred_pts,
         'formation':           formation,
         'captain':             xi_by_cap[0]['web_name']    if xi_by_cap else None,
@@ -623,18 +656,20 @@ def build_past_best_team(gw_fpl_id: int, captain_fpl_id: int | None = None) -> d
     candidates = []
     for s in stats_list:
         pid = s.player_id
-        if pid in stored_preds:
+        # Players who didn't play that GW (0 minutes) were unavailable — injured,
+        # suspended, or benched and unused. Setting predicted_points = 0 ensures
+        # the optimizer never selects them for the best XI.
+        if s.minutes == 0:
+            pred_pts = 0.0
+        elif pid in stored_preds:
             pred_pts = stored_preds[pid]
         else:
             r = rolling.get(pid)
             a = season_avgs.get(pid, 2.0)
             if r is not None:
-                # 40% multi-window form, 60% season average
-                # Season avg anchors predictions to realistic per-GW output;
-                # multi-window form captures genuine trends without chasing spikes
                 pred_pts = round(r * 0.40 + a * 0.60, 2)
             else:
-                pred_pts = a  # no form window data → use season avg alone
+                pred_pts = a
 
         # Use team_at_gw for historical accuracy (mid-season transfers)
         hist_team_short = (
@@ -664,12 +699,15 @@ def build_past_best_team(gw_fpl_id: int, captain_fpl_id: int | None = None) -> d
 
     candidates.sort(key=lambda x: x['predicted_points'], reverse=True)
 
+    fixtures = _get_fixtures(gw)
+    fdr_map  = _get_fdr_map(gw)
+
+    # Apply FDR-aware backline penalty before building squad
+    _apply_backline_corr_penalty(candidates, fdr_map)
+
     xi, bench = _build_squad(candidates, 100.0)
     if not xi:
         return {'error': 'Could not build team'}
-
-    fixtures = _get_fixtures(gw)
-    fdr_map  = _get_fdr_map(gw)
 
     # Captain = 3-factor score: adjusted_pts×2 + dream_team_bonus
     # Uses same logic as build_best_team / manager optimizer
@@ -722,13 +760,15 @@ def build_past_best_team(gw_fpl_id: int, captain_fpl_id: int | None = None) -> d
     n_mid = sum(1 for p in xi if p['position'] == 3)
     n_fwd = sum(1 for p in xi if p['position'] == 4)
 
+    captain_name = next((p['web_name'] for p in xi if p['fpl_id'] == captain_id), None)
+
     return {
         'gameweek':        gw.name,
         'gameweek_id':     gw.fpl_id,
         'formation':       f"{n_def}-{n_mid}-{n_fwd}",
         'predicted_pts':   pred_xi_pts,
         'actual_pts':      actual_xi_pts,
-        'captain':         xi_by_cap[0]['web_name'] if xi_by_cap else None,
+        'captain':         captain_name,
         'xi':              xi_out,
         'bench':           bench_out,
         'has_actual_data': True,
@@ -841,29 +881,7 @@ def simulate_learning_progression(
         ]
         candidates.sort(key=lambda x: x['predicted_points'], reverse=True)
 
-        # NEW FIX 4: DEF clean-sheet correlation penalty.
-        # Test result: avg|diff| −0.04 vs baseline (bad_GWs unchanged).
-        # If 3+ DEF from the same team are in the candidate pool, apply ×0.92 to the
-        # 3rd+ DEF to discourage concentration risk — when one team fails a CS, all
-        # same-team DEF lose ~6pts simultaneously, creating correlated downside.
-        _def_team_count: dict[int, int] = {}
-        for c in [x for x in candidates if x['position'] == 2]:
-            tid = c['team_id']
-            _def_team_count[tid] = _def_team_count.get(tid, 0) + 1
-            if _def_team_count[tid] >= 3:
-                c['predicted_points'] = round(c['predicted_points'] * 0.92, 3)
-
-        xi, bench = _build_squad(candidates, 100.0)
-        if not xi:
-            results.append({'gw': gw_id, 'error': 'Could not build squad'})
-            # Still calibrate even if squad failed
-            weights, cal = calibrate_after_gw(gw_id, weights, scored_map)
-            save_weights(weights, gw_id, cal)
-            continue
-
-        # FIX 4: FDR-adjusted captain selection
-        # Apply fixture difficulty as a multiplier on captain utility score
-        # Lower FDR (easier fixture) boosts captaincy value
+        # Build fdr_map early — needed for both backline penalty and captain selection
         from fpl.models import Fixture as _Fixture, Gameweek as _Gw
         fdr_map: dict[int, int] = {}
         try:
@@ -875,6 +893,16 @@ def simulate_learning_progression(
                     fdr_map[f.team_a_id] = f.team_a_difficulty
         except Exception:
             pass
+
+        # FDR-aware backline (GK + DEF) same-club correlation penalty.
+        _apply_backline_corr_penalty(candidates, fdr_map)
+
+        xi, bench = _build_squad(candidates, 100.0)
+        if not xi:
+            results.append({'gw': gw_id, 'error': 'Could not build squad'})
+            weights, cal = calibrate_after_gw(gw_id, weights, scored_map)
+            save_weights(weights, gw_id, cal)
+            continue
         FDR_MULT = {1: 1.15, 2: 1.08, 3: 1.0, 4: 0.88, 5: 0.75}
 
         # FIX 6: Captain blank-rate penalty

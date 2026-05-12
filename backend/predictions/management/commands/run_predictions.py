@@ -47,6 +47,13 @@ class Command(BaseCommand):
             pred = predict_player(player, gw_stats, model_type)
             if pred is None:
                 continue
+            # Apply chance-of-playing so stored predictions reflect availability risk.
+            # The ML model has no awareness of injury status; cop corrects this at source.
+            cop = player.chance_of_playing_next_round
+            if cop is not None:
+                pred = round(pred * (cop / 100), 2)
+            elif player.status == 'd':
+                pred = round(pred * 0.5, 2)
             Prediction.objects.update_or_create(
                 player=player, gameweek=gw, model_name=model_type,
                 defaults={'predicted_points': pred},

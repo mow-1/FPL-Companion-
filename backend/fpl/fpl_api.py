@@ -3,7 +3,10 @@ Wrapper for the official Fantasy Premier League API.
 Base URL: https://fantasy.premierleague.com/api/
 """
 import requests
+import urllib3
 from typing import Any
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 FPL_BASE = 'https://fantasy.premierleague.com/api'
 TIMEOUT = 15
@@ -15,7 +18,7 @@ HEADERS = {
 
 def _get(endpoint: str) -> Any:
     url = f"{FPL_BASE}{endpoint}"
-    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=False)
     resp.raise_for_status()
     return resp.json()
 

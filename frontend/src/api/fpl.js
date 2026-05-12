@@ -9,7 +9,7 @@ export const getCurrentGw = () => api.get('/fpl/gameweeks/current/')
 export const getFixtures = (params) => api.get('/fpl/fixtures/', { params })
 
 export const getBestPicks       = (params)        => api.get('/predictions/best-picks/',       { params })
-export const getBestTeam        = (budget = 100)  => api.get('/predictions/best-team/',        { params: { budget } })
+export const getBestTeam        = ()              => api.get('/predictions/best-team/')
 export const getTrackRecord     = (n = 3)         => api.get('/predictions/track-record/',     { params: { n } })
 export const getGwDetail        = (gw)            => api.get('/predictions/track-record/',     { params: { gw } })
 export const getGwHistory       = ()              => api.get('/predictions/gw-history/')

@@ -131,7 +131,7 @@ function SquadPitch({ xi, bench, totalPoints }) {
   const benchLabels = ['GKP', '1st', '2nd', '3rd']
 
   return (
-    <div className="bg-white dark:bg-[#0f172a] border border-slate-200/50 dark:border-white/5 rounded-3xl p-4 md:p-6">
+    <div className="rounded-3xl p-4 md:p-6" style={{ background: '#1a002e', border: '1px solid rgba(0,255,135,0.1)' }}>
       {/* Section header */}
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-base font-semibold text-slate-900 dark:text-white">Predicted Squad</h2>
@@ -144,7 +144,7 @@ function SquadPitch({ xi, bench, totalPoints }) {
       </div>
 
       {/* Pitch */}
-      <div className="relative border-2 border-slate-200 dark:border-white/10 rounded-2xl overflow-hidden">
+      <div className="relative rounded-2xl overflow-hidden" style={{ border: '1px solid rgba(0,255,135,0.12)' }}>
         <PitchSVG />
 
         <div className="relative z-10 px-2 md:px-4 pt-6 pb-6 space-y-4 md:space-y-5">
@@ -187,7 +187,7 @@ function CaptainPanel({ captainSuggestion, onGenerate, isPending, hasSquad }) {
           <button
             onClick={onGenerate}
             disabled={isPending}
-            className="text-cyan-400 hover:text-cyan-300 text-sm flex items-center gap-1.5 disabled:opacity-50 transition-colors"
+            className="text-sm flex items-center gap-1.5 disabled:opacity-50 transition-colors font-semibold" style={{ color: '#00ff87' }}
           >
             <RefreshCw className={`w-3.5 h-3.5 ${isPending ? 'animate-spin' : ''}`} />
             {isPending ? 'Generating…' : 'Generate'}
@@ -285,7 +285,7 @@ function TransfersPanel({ transfers, onRefresh, isPending, hasSquad }) {
           <button
             onClick={onRefresh}
             disabled={isPending}
-            className="text-cyan-400 hover:text-cyan-300 text-sm flex items-center gap-1.5 disabled:opacity-50 transition-colors"
+            className="text-sm flex items-center gap-1.5 disabled:opacity-50 transition-colors font-semibold" style={{ color: '#00ff87' }}
           >
             <RefreshCw className={`w-3.5 h-3.5 ${isPending ? 'animate-spin' : ''}`} />
             {isPending ? 'Analysing…' : 'Refresh'}
@@ -344,7 +344,7 @@ function TransfersPanel({ transfers, onRefresh, isPending, hasSquad }) {
 
           <Link
             to="/advice"
-            className="flex items-center justify-center gap-1.5 text-cyan-400 hover:text-cyan-300 text-sm pt-1 transition-colors"
+            className="flex items-center justify-center gap-1.5 text-sm pt-1 transition-colors font-semibold" style={{ color: '#00ff87' }}
           >
             View All <ArrowRight className="w-3.5 h-3.5" />
           </Link>
@@ -385,8 +385,8 @@ export default function Dashboard() {
   })
 
   if (isLoading) return (
-    <div className="flex items-center justify-center h-full bg-[#020617]">
-      <p className="text-slate-500 dark:text-slate-400 animate-pulse text-lg">Loading dashboard…</p>
+    <div className="flex items-center justify-center h-full" style={{ background: '#0d001a' }}>
+      <p className="animate-pulse text-lg font-display" style={{ color: 'rgba(0,255,135,0.5)' }}>Loading dashboard…</p>
     </div>
   )
 
@@ -403,7 +403,8 @@ export default function Dashboard() {
     <div className="max-w-7xl mx-auto space-y-6 pb-8">
 
       {/* Sticky header */}
-      <div className="h-16 flex items-center justify-between px-4 md:px-8 border-b border-slate-200/50 dark:border-white/5 bg-slate-100 dark:bg-white/80 dark:bg-[#0f172a]/80 backdrop-blur-xl sticky top-0 z-40 -mx-4 md:-mx-8 -mt-4 md:-mt-8 mb-0">
+      <div className="h-16 flex items-center justify-between px-4 md:px-8 backdrop-blur-xl sticky top-0 z-40 -mx-4 md:-mx-8 -mt-4 md:-mt-8 mb-0"
+        style={{ borderBottom: '1px solid rgba(0,255,135,0.1)', background: 'rgba(13,0,26,0.9)' }}>
         <div className="flex items-center gap-3">
           <h1 className="text-base font-bold text-slate-900 dark:text-white">
             {current_gameweek || 'Dashboard'}
@@ -416,7 +417,8 @@ export default function Dashboard() {
           <button
             onClick={() => syncMut.mutate()}
             disabled={syncMut.isPending}
-            className="flex items-center gap-2 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-slate-900 dark:text-white px-4 py-2 rounded-xl text-sm font-medium transition-colors shadow-[0_0_20px_-5px_rgba(6,182,212,0.4)]"
+            className="flex items-center gap-2 disabled:opacity-50 px-4 py-2 rounded-xl text-sm font-bold transition-all"
+          style={{ background: '#00ff87', color: '#0d001a', boxShadow: '0 0 20px -6px rgba(0,255,135,0.45)' }}
           >
             <RefreshCw className={`w-4 h-4 ${syncMut.isPending ? 'animate-spin' : ''}`} />
             {syncMut.isPending ? 'Syncing…' : 'Sync Squad'}
@@ -433,7 +435,8 @@ export default function Dashboard() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
-              className={`bg-white dark:bg-[#0f172a] border ${kpi.border} rounded-2xl p-5 flex items-center gap-4`}
+              className={`border ${kpi.border} rounded-2xl p-5 flex items-center gap-4`}
+              style={{ background: '#1a002e' }}
             >
               <div className={`p-3 rounded-xl bg-slate-100 dark:bg-white/5 ${kpi.color}`}>
                 <kpi.icon className="w-5 h-5" />
@@ -446,7 +449,7 @@ export default function Dashboard() {
           ))}
         </div>
       ) : (
-        <div className="bg-white dark:bg-[#0f172a] border border-dashed border-slate-200 dark:border-white/10 rounded-2xl p-8 text-center">
+        <div className="border border-dashed rounded-2xl p-8 text-center" style={{ background: '#1a002e', borderColor: 'rgba(0,255,135,0.15)' }}>
           <p className="text-slate-600 dark:text-slate-500">No squad synced yet.</p>
           {user?.fpl_team_id
             ? <button onClick={() => syncMut.mutate()} className="mt-3 text-cyan-400 hover:text-cyan-300 text-sm transition-colors">Sync your squad →</button>

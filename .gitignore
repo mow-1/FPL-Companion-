@@ -15,7 +15,6 @@ env/
 db.sqlite3
 /backend/staticfiles/
 /backend/media/
-/backend/ml_artifacts/
 
 # Environment
 .env
@@ -39,10 +38,7 @@ frontend/build/
 Thumbs.db
 desktop.ini
 
-# ML artifacts (large files)
-*.keras
-*.h5
-*.pkl
+# Logs (not artifacts)
 !requirements*.txt
 
 # Logs

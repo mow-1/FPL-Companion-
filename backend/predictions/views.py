@@ -109,17 +109,12 @@ def trigger_predictions(request):
 @permission_classes([permissions.AllowAny])
 def best_team_view(request):
     """
-    Build and return the optimal 15-player squad within a budget.
-    Query params:
-      budget (float, default 100.0)
+    Build and return the prediction-best XI + bench.
+    Players are ranked purely by predicted points; budget is not a constraint.
+    FPL rules still apply: valid formation, max 3 per club, squad composition.
     """
     from .optimizer import build_best_team
-    try:
-        budget = float(request.query_params.get('budget', 100.0))
-        budget = max(80.0, min(budget, 120.0))   # clamp to sane range
-    except ValueError:
-        budget = 100.0
-    result = build_best_team(budget=budget)
+    result = build_best_team()
     return Response(result)
 
 
@@ -213,7 +208,7 @@ def gw_history_view(request):
     if gw30:
         covered = {h['gw'] for h in history}
         if gw30.fpl_id not in covered:
-            team = build_best_team(100.0)
+            team = build_best_team()
             history.append({
                 'gw':            gw30.fpl_id,
                 'gw_name':       gw30.name,
@@ -448,7 +443,7 @@ def community_compare_view(request):
     if model_xi_pred is None:
         # Last resort: build best team live
         from .optimizer import build_best_team
-        team = build_best_team(100.0)
+        team = build_best_team()
         model_xi_pred = team.get('xi_predicted_pts', 0) or 0
 
     model_edge = round(float(model_xi_pred) - community_xi_pred, 1)

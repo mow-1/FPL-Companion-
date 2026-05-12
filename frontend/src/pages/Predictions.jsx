@@ -187,18 +187,17 @@ function Pitch({ xi, bench, formation, showActual = false }) {
 // ─── Best Team tab ────────────────────────────────────────────────────────────
 
 const KPI_META = [
-  { key: 'formation',         label: 'Formation',    icon: Target,    color: 'text-slate-900 dark:text-white',        border: 'border-slate-200 dark:border-white/10',        bg: 'bg-slate-100 dark:bg-white/5'         },
-  { key: 'total_cost',        label: 'Total Cost',   icon: Wallet,    color: 'text-yellow-400',   border: 'border-yellow-500/25',   bg: 'bg-yellow-500/5'    },
-  { key: 'remaining_budget',  label: 'In Bank',      icon: TrendingUp,color: 'text-cyan-400',     border: 'border-cyan-500/25',     bg: 'bg-cyan-500/5'      },
-  { key: 'xi_predicted_pts',  label: 'Pred. XI Pts', icon: Zap,       color: 'text-blue-400',     border: 'border-blue-500/25',     bg: 'bg-blue-500/5'      },
-  { key: 'gameweek',          label: 'Gameweek',     icon: Trophy,    color: 'text-emerald-400',  border: 'border-emerald-500/25',  bg: 'bg-emerald-500/5'   },
+  { key: 'formation',        label: 'Formation',     icon: Target,     color: 'text-slate-900 dark:text-white',   border: 'border-slate-200 dark:border-white/10', bg: 'bg-slate-100 dark:bg-white/5'  },
+  { key: 'xi_predicted_pts', label: 'Pred. XI Pts',  icon: Zap,        color: 'text-blue-400',    border: 'border-blue-500/25',    bg: 'bg-blue-500/5'   },
+  { key: 'xi_cost',          label: 'XI Value',      icon: Wallet,     color: 'text-yellow-400',  border: 'border-yellow-500/25',  bg: 'bg-yellow-500/5' },
+  { key: 'squad_cost',       label: 'Squad Value',   icon: TrendingUp, color: 'text-cyan-400',    border: 'border-cyan-500/25',    bg: 'bg-cyan-500/5'   },
+  { key: 'gameweek',         label: 'Gameweek',      icon: Trophy,     color: 'text-emerald-400', border: 'border-emerald-500/25', bg: 'bg-emerald-500/5'},
 ]
 
 function BestTeamTab() {
-  const [budget, setBudget] = useState(100)
   const { data, isLoading, isFetching } = useQuery({
-    queryKey: ['best-team', budget],
-    queryFn: () => getBestTeam(budget).then(r => r.data),
+    queryKey: ['best-team'],
+    queryFn: () => getBestTeam().then(r => r.data),
   })
   const { data: trackData, isLoading: trackLoading } = useQuery({
     queryKey: ['track-record'],
@@ -212,16 +211,11 @@ function BestTeamTab() {
   return (
     <div className="space-y-6">
 
-      {/* ── Controls bar ── */}
-      <div className="bg-white dark:bg-[#0f172a] border border-slate-200/50 dark:border-white/5 rounded-2xl p-5 flex flex-wrap gap-6 items-center">
-        <div className="flex-1 min-w-56">
-          <label className="block text-sm text-slate-500 dark:text-slate-400 mb-2">
-            Budget: <span className="text-cyan-400 font-bold">£{budget}m</span>
-          </label>
-          <input type="range" min={80} max={120} step={0.5} value={budget}
-            onChange={e => setBudget(Number(e.target.value))}
-            className="w-full accent-cyan-500 h-1.5 rounded-full" />
-          <div className="flex justify-between text-xs text-slate-700 dark:text-slate-600 mt-1"><span>£80m</span><span>£120m</span></div>
+      {/* ── Info bar ── */}
+      <div className="bg-white dark:bg-[#0f172a] border border-slate-200/50 dark:border-white/5 rounded-2xl p-4 flex flex-wrap gap-3 items-center justify-between">
+        <div>
+          <p className="text-sm font-semibold text-slate-900 dark:text-white">Prediction Best XI</p>
+          <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Highest predicted scorers · no budget limit · FPL rules apply</p>
         </div>
         <div className="flex gap-2 flex-wrap">
           {[['GK','bg-yellow-500'],['DEF','bg-blue-500'],['MID','bg-emerald-500'],['FWD','bg-red-500']].map(([l,c])=>(
@@ -229,7 +223,7 @@ function BestTeamTab() {
               <span className={`w-2 h-2 rounded-full ${c}`}/>{l}
             </span>
           ))}
-          <span className="text-xs text-slate-700 dark:text-slate-600 self-center ml-1">2GK · 5DEF · 5MID · 3FWD · max 3/club</span>
+          <span className="text-xs text-slate-600 dark:text-slate-500 self-center ml-1">2GK · 5DEF · 5MID · 3FWD · max 3/club</span>
         </div>
       </div>
 
@@ -238,9 +232,9 @@ function BestTeamTab() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
           {KPI_META.map(({ key, label, icon: Icon, color, border, bg }, i) => {
             const raw = data[key]
-            const value = key === 'total_cost' ? `£${raw}m`
-                        : key === 'remaining_budget' ? `£${raw}m`
-                        : key === 'xi_predicted_pts' ? raw?.toFixed(1)
+            const value = key === 'xi_cost'          ? `£${raw}m`
+                        : key === 'squad_cost'        ? `£${raw}m`
+                        : key === 'xi_predicted_pts'  ? raw?.toFixed(1)
                         : raw
             return (
               <motion.div key={key}
